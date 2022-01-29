@@ -19,6 +19,6 @@ I offer a public email address voluntarily with the purpose of receiving website
 
 There are links to external websites throughout the website. Please note that clicking on one of these links will take you to another website which likely does include some tracking. Please refer to the privacy policy of those specific external websites for more information.
 
-This website is hosted by Neocites. It's possible that Neocities may log basic visitor information such as your IP address, browser version, device type etc for the purpose of serving the content and improving their own service.
+This website is hosted on GitHub. It's possible that GitHub may log basic visitor information such as your IP address, browser version, device type etc for the purpose of serving the content and improving their own service.
 
 If you have any questions regarding this policy, please reach out to me at hello@stevepdp.dev.
