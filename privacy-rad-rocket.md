@@ -1,6 +1,6 @@
 ---
 title: Privacy Policy for Rad Rocket
-permalink: privacy
+permalink: privacy-rad-rocket
 
 og_title: "Privacy Policy for Rad Rocket"
 og_image: 
