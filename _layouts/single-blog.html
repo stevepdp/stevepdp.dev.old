@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en-gb" prefix="og: http://ogp.me/ns#">
+    {% include head.html %}
+    <body class="{{page.type | downcase }}">
+        <!-- wrap -->
+        <div class="wrap">
+            <!-- main -->
+            <div class="content">
+                <!-- sidebar -->
+                {% include sidebar.html %}
+
+                <!-- content -->
+                <main>
+                    <article itemscope="" itemtype="http://schema.org/BlogPosting">
+                        <header>
+                            <h2 itemprop="headline">{{page.title}}</h2>
+                        </header>
+                        {{content}}
+                        <footer class="footer">
+                            <!-- citations here perhaps? -->
+                            {% include cta.html %}
+                            <p class="post-date">{{ page.date | date: '%B %d, %Y' }}</p>
+                        </footer>
+                    </article>
+                </main>
+            </div>
+        </div>
+        {% include font-awesome.html %}
+    </body>
+</html>

@@ -1,0 +1,753 @@
+/**
+ * main.css
+ * Copyright (C) 2021, 2022 Stephen Pearce
+ */
+
+/**
+ * Fonts
+ */
+/* lato-300 - latin */
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url('/assets/fonts/lato-v16-latin-300.woff2') format('woff2'),
+       url('/assets/fonts/lato-v16-latin-300.woff') format('woff');
+}
+/* lato-regular - latin */
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/assets/fonts/lato-v16-latin-regular.woff2') format('woff2'),
+       url('/assets/fonts/lato-v16-latin-regular.woff') format('woff');
+}
+/* raleway-700 - latin */
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('/assets/fonts/raleway-v16-latin-700.woff2') format('woff2'),
+       url('/assets/fonts/raleway-v16-latin-700.woff') format('woff');
+}
+
+/**
+ * Custom Properties
+ */
+:root {
+    --main-anim-speed: .4s;
+    --contrast-colour: #fff;
+    --contrast-colour-alt: #f9f9f9;
+    --main-colour: #5c636d;
+    --main-border-size: 8px;
+    --main-spacing-size: 16px;
+}
+
+/**
+ * Hack: box-sizing
+ * See https://css-tricks.com/box-sizing/
+ */
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/**
+ * Global
+ */
+::selection {
+    background-color: var(--main-colour);
+    color: var(--contrast-colour);
+}
+::-moz-selection {
+    background-color: var(--main-colour);
+    color: var(--contrast-colour);
+}
+* {
+    -webkit-appearance: none;
+    appearance: none;
+    -webkit-font-smoothing: antialiased;
+    font-smoothing: antialiased;
+    text-rendering: optimizelegibility;
+}
+body {
+    background-color: var(--contrast-colour);
+    color: var(--main-colour);
+    font-family: "Lato", sans-serif;
+    margin: 0;
+    padding: 0 0 80px;
+    position: relative;
+}
+body:before {
+    content: '';
+    background-color: var(--main-colour);
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 8px;
+    width: 100vw;
+    z-index: 1;
+}
+figure {
+    display: inline-block;
+    margin-left: 0;
+    margin-right: 0;
+}
+figcaption {
+    color: var(--contrast-colour);;
+    background: var(--main-colour);
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+    font-size: small;
+    font-style: italic;
+    padding: 3px 0 6px;
+    text-align: center;
+}
+
+/**
+ * Utility
+ */
+.wrap {
+    padding: 16px 8px 64px 8px;
+}
+.center {
+    text-align: center;
+}
+.sr-only {
+    display: none;
+}
+.wide {
+    height: auto;
+    width: 100%;
+}
+
+/** 
+ * Typography
+ */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Raleway", sans-serif;
+}
+h2 {
+    font-size: 24px;
+    margin-top: 0;
+}
+h2,
+h3 {
+    text-transform: capitalize;
+}
+p {
+    line-height: 1.6;
+}
+a {
+    color: var(--main-colour);
+}
+a:focus {
+    outline-color: var(--main-colour);
+}
+pre {
+    background: var(--contrast-colour);
+    border: 1px solid var(--main-colour);
+    border-left: 8px solid var(--main-colour);
+    margin: 8px;
+    padding: 8px;
+}
+code {
+    background: var(--contrast-colour);
+    display: inline-block;
+    padding: 0 4px;
+}
+
+/**
+ * Menu
+ */
+.burger {
+    -webkit-appearance: none;
+    appearance: none;
+    background: var(--contrast-colour);
+    border: 4px double var(--main-colour);
+    border-radius: 4px;
+    color: var(--main-colour);
+    display: block;
+    font-family: "Lato", sans-serif;
+    height: auto;
+    min-width: 102px;
+    opacity: .95;
+    outline: none;
+    position: fixed;
+        bottom: 8px;
+        right: 8px;
+    z-index: 2;
+}
+.burger:before {
+    color: var(--main-colour);
+    display: block;
+    content: '☰ Menu';
+    font-size: 16px;
+    padding: 8px;
+    position: relative;
+    top: -1.5px;
+    text-transform: uppercase;
+}
+html.menu--toggled .burger:before {
+    content: '☰ Close';
+}
+.menu {
+    background: var(--main-colour);
+    height: 100vh;
+    position: fixed;
+        top: -100vh;
+        left: 0;
+    overflow-y: scroll;
+    transition: var(--main-anim-speed) top;
+    width: 100%;
+    will-change: top;
+    z-index: 1;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+html.menu--toggled body {
+    overflow: hidden;
+}
+html.menu--toggled .menu {
+    overflow-x: hidden;
+    overflow-y: scroll;
+    top: 0vh;
+    transition: var(--main-anim-speed) top;
+    will-change: top;
+}
+/* Hide scrollbar for Chrome, Safari and Opera */
+html.menu--toggled .menu::-webkit-scrollbar {
+  display: none;
+}
+.menu__inner {
+    z-index: 1;
+}
+.menu__list {
+    margin: 0;
+    padding: 0 0 64px 0;
+}
+.menu__list li {
+    display: block;
+    width: calc(100vw);
+}
+.menu__header,
+.menu__list li a {
+    color: var(--contrast-colour);
+    display: block;
+    font-size: 48px;
+    font-weight: 300;
+    line-height: 1;
+    padding: 8px;
+    text-align: right;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.menu__header {
+    border-bottom: 2px solid var(--contrast-colour);
+    font-size: 24px;
+    margin: 0;
+    opacity: .2;
+    padding: 16px 8px;
+}
+
+/**
+ * Content
+ */
+.content {
+    display: flex;
+    flex-direction: column;
+}
+.content__wrap {
+    max-width: 768px;
+}
+.footer {
+    display: block;
+    line-height: 1.6;
+    margin-top: 16px;
+}
+.post-date {
+    font-style: italic;
+}
+.pointer {
+    display: inline-block;
+    position: relative;
+    top: -8px;
+    left: 2px;
+    transform: rotate(-45deg);
+}
+.sidebar::-webkit-scrollbar {
+    display: none;
+}
+.sidebar {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+    margin: 64px 0 calc(64px - 8px);
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+.avatar {
+    display: block;
+}
+.avatar img {
+    border-radius: 50%;
+}
+.icons {
+    margin: -8px 0 0;
+    padding: 0;
+}
+.icons li {
+    display: inline-block;
+}
+.icons li a {
+    display: inline-block;
+    padding: 8px;
+}
+.icons li a i {
+    color: var(--main-colour);
+    font-size: 32px;
+}
+.headline {
+    display: block;
+    font-family: "Raleway", sans-serif;
+    font-size: 24px;
+    letter-spacing: 2px;
+    line-height: 1;
+    margin: 16px 0;
+    text-transform: uppercase;
+}
+.headline a {
+    text-decoration: none;
+}
+.headline__sub {
+    display: block;
+    font-family: "Lato", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    margin-top: 8px;
+}
+
+/**
+ * Articles
+ */
+.articles {
+    margin-bottom: 8px;
+}
+.articles ~ .articles {
+    margin: 8px 0;
+}
+.articles__header {
+    position: relative;
+    text-align: left;
+}
+.articles__header h1 {
+    display: inline-block;
+    margin: 0;
+}
+.articles__header h1 a {
+    display: inline-block;
+    color: var(--main-colour);
+    padding: 8px 0;
+}
+.articles__feed {
+    display: inline-block;
+    padding: 8px 0;
+}
+.articles__single {
+    display: block;
+}
+.articles__single header h1 {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin: 0;
+}
+.articles__single header h1 a {
+    display: block;
+    overflow: hidden;
+    padding: 8px 0;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.articles__single header h1 a i {
+    margin-right: 8px;
+}
+figure img {
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    display: block;
+    width: 100%;
+}
+.downloads {
+    list-style: none;
+    margin: 32px 0;
+    padding: 0;
+}
+.downloads li + li {
+    margin-top: 24px;
+}
+.downloads li a img {
+    display: inline-block;
+}
+.trailer {
+    max-width: 640px;
+    width: 100%;
+}
+
+/**
+ * Category: games
+ */
+body.category-games main h2 {
+    display: inline;
+}
+body.category-games main ul li a {
+    font-family: Lato, sans-serif;
+    font-weight: 400;
+}
+body.category-games .tag + .tag {
+    margin-top: 32px;
+}
+body.category-games main ul {
+    list-style: none;
+    padding-left:  16px;
+}
+body.category-games main ul li i {
+    margin-right:  8px;
+    position: relative;
+    top:  2px;
+}
+
+/**
+ * Category: blog
+ */
+body.category-blog main h2 {
+    display: inline;
+}
+body.category-blog h3 {
+    font-size: 16px;
+}
+body.category-blog main h3 a {
+    font-family: Lato, sans-serif;
+    font-weight: 400;
+}
+body.category-blog main h3 i {
+    margin-right: 16px;
+    position: relative;
+    top: 1px;
+}
+body.category-blog main ul {
+    list-style: none;
+    padding-left:  16px;
+}
+body.category-blog main ul li i {
+    margin-right:  8px;
+    position: relative;
+    top: 2px;
+}
+
+
+/**
+ * Single: blog
+ */
+body.single-post .content figure {
+    margin: 64px auto;
+}
+
+@media(min-width: 375px) {
+
+    /* Utility */
+    .wrap {
+        padding: 8px 16px 16px;
+    }
+
+    /* Menu */
+    .burger {
+        bottom: 16px;
+        right: 16px;
+    }
+    .menu__header,
+    .menu__list li a {
+        padding: 16px;
+    }
+
+    /* Content */
+    .avatar picture img {
+        height: auto;
+        width: 128px;
+    }
+    .headline {
+        margin: 32px 0;
+    }
+}
+
+@media(min-width: 568px) {
+
+    /* Menu */
+    .menu__header,
+    .menu__list li a {
+        text-align: center;
+    }
+}
+
+@media(min-width: 768px) {
+
+    h1 {
+        font-size: 24px;
+    }
+    h2 {
+        font-size: 28px;
+    }
+
+    /* Menu */
+    .menu__header,
+    .menu__list li a {
+        text-align: right;
+    }
+
+    .articles {
+        margin-bottom: 16px;
+    }
+    .articles ~ .articles {
+        margin: 16px 0;
+    }
+    .downloads li a img {
+        margin: 0;
+    }
+}
+
+@media(min-width: 800px) {
+
+    figure img {
+        width: auto;
+    }
+}
+
+@media(min-width: 1024px) {
+
+    body {
+        padding: 0;
+    }
+    body:before {
+        display: none;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    .wrap {
+        padding: 0;
+    }
+
+    .content {
+        background: var(--contrast-colour-alt);
+        /*box-shadow: inset 0px 8px 0 0 var(--main-colour);
+        -webkit-box-shadow: inset 0px 8px 0 0 var(--main-colour);*/
+        border-top: 8px solid var(--main-colour);
+        height: 100vh;
+        margin-left: 320px;
+        overflow-y: scroll;
+        padding: calc(48px + 8px) 32px 16px;
+    }
+
+    .sidebar {
+        background: var(--contrast-colour);
+        border-top: 8px solid var(--main-colour);
+        height: 100vh;
+        margin: 0;
+        max-width: 320px;
+        padding-top: 56px;
+        position: fixed;
+        left: 0;
+        top: 0;
+        width: 320px;
+
+    }
+    .menu {
+        background: none;
+        height: auto;
+        margin: calc(64px - 8px) 0 0;
+        overflow-y: visible;
+        position: static;
+        text-align: center;
+    }
+    .menu,
+    .menu__inner {
+        z-index: 0;
+    }
+    .menu__header,
+    .menu__list li a {
+        color: var(--main-colour);
+        padding: 0;
+        text-align: center;
+    }
+    .menu__header {
+        border-bottom:  none;
+        font-family: Lato,sans-serif;
+        opacity: .2;
+    }
+    .menu__list {
+        margin-top: 8px;
+        margin-bottom: calc(92px);
+        padding-bottom: 0;
+    }
+    .menu__list li {
+        width: auto;
+    }
+    /* Todo: do something with this to show the current page;
+    /*.menu__list li:first-of-type a:before {
+        content: "✪";
+        display: inline-block;
+        margin-right: 8px;
+    }*/
+    .menu__list li a {
+        font-size: 26px;
+        padding: 4px 0;
+    }
+    .menu__list li.highlight {
+        margin-bottom: 16px;
+        margin-top: 16px;
+        transform: skew(2deg, -2deg);
+    }
+    .menu__list li.highlight a {
+        background: var(--main-colour);
+        border-radius: 4px;
+        color: var(--contrast-colour);
+        display: inline-block;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+    .burger {
+        display: none;
+    }
+    .post-date {
+        float: right;
+    }
+    figure img {
+        width: 100%;
+    }
+}
+
+@media(min-width: 1200px) {
+
+    figure img {
+        width: auto;
+    }
+}
+
+@media(min-width: 1366px) {
+
+    body {
+        background: var(--main-colour);
+    }
+    h2 {
+        font-size: 30px;
+    }
+
+    .wrap {
+        padding: 0;
+    }
+
+    .content {
+        border-top: none;
+        max-width: 768px;
+        padding: 64px 48px;
+    }
+    .articles__header h1 a:hover,
+    .articles__feed:hover,
+    .articles__single header h1 a:hover {
+        text-decoration: none;
+    }
+    .articles__single header h1 a {
+        display: inline-block;
+    }
+
+    .sidebar {
+        border-top: none;
+        padding-top: 64px;
+    }
+    .headline {
+        font-size: 26px;
+    }
+    .headline__sub {
+        font-size: 14px;
+    }
+    .icons li a {
+        border-bottom: 2px solid transparent;
+        margin: 8px;
+        padding: 0 0 4px 0;
+    }
+    .icons li a:hover {
+        border-color: var(--main-colour);
+    }
+    .menu__list li a:hover {
+        text-decoration: underline;
+    }
+
+    .menu {
+        margin-top: calc(92px - 8px);
+    }
+    .menu__list {
+        margin-top: 16px;
+    }
+    .menu__list li.highlight {
+        margin-bottom: 32px;
+        margin-top: 32px;
+    }
+    .menu__list li a {
+        display: inline-block;
+        font-size: 28px;
+        padding: 8px 0;
+    }
+
+    figure img {
+        width: 100%;
+    }
+    .trailer {
+        float: right;
+        height: auto;
+        max-width: 375px;
+        padding: 0 0 32px 32px;
+        width: 100%;
+    }
+}
+
+@media(min-width: 1920px) {
+
+    .sidebar {
+        max-width: 414px;
+        width: 414px;
+    }
+    .content {
+        margin: 0;
+        max-width: calc(1366px + 414px);
+        padding: 64px 64px 64px calc(414px + 64px);
+        position: relative;
+    }
+    .articles__header h1 a,
+    .articles__feed,
+    .articles__single header h1 a {
+        padding: 0;
+    }
+    .articles__single header h1 a {
+        margin: 16px 0;
+    }
+
+    figure img {
+        width: auto;
+    }
+
+    .trailer {
+        max-width: 414px;
+        padding: 0 0 64px 64px;
+    }
+}
