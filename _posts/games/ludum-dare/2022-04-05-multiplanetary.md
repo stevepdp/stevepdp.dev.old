@@ -17,6 +17,8 @@ Made in 72 hours for <a href="https://ldjam.com/events/ludum-dare/50" rel="noope
     <li><a href="https://stevepdp.itch.io/multiplanetary" rel="noopener" target="_blank"><img src="/assets/img/brands/itch-io-colour.svg" height="48" width="156"></a></li>
 </ul>
 
+<img class="trailer" src="/assets/gifs/games/multiplanetary/multiplanetary.gif">
+
 ### Retrospective
 
 ### The Idea
