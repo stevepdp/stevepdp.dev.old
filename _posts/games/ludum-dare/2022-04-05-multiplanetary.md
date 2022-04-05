@@ -11,7 +11,7 @@ category: games
 tag: ludum-dare
 ---
 
-Made in 72 hours for <a href="https://ldjam.com/events/ludum-dare/50" target="_blank">Ludum Dare 50</a> with the theme "delay the inevitable".
+Made in 72 hours for <a href="https://ldjam.com/events/ludum-dare/50" rel="noopener" target="_blank">Ludum Dare 50</a> with the theme "delay the inevitable".
 
 <ul class="downloads">
     <li><a href="https://stevepdp.itch.io/multiplanetary" rel="noopener" target="_blank"><img src="/assets/img/brands/itch-io-colour.svg" height="48" width="156"></a></li>
@@ -49,4 +49,4 @@ I had a few things to learn in order to make my idea work. These aspects at leas
 
 It's been nine months since I last attempted a game jam so I've definitely had to remind myself of the standard practices.
 
-I happened upon [the 4:44 rule](https://www.youtube.com/watch?v=lPyYZjCQ0Is) whilst testing other's submissions, and I think I'll apply it when the next game jam opportunity rolls around.
+I happened upon <a href="https://www.youtube.com/watch?v=lPyYZjCQ0Is" rel="noopener" target="_blank">the 4:44 rule</a> whilst testing other's submissions, and I think I'll apply it when the next game jam opportunity rolls around.
