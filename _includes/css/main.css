@@ -41,6 +41,8 @@
     --main-anim-speed: .4s;
     --contrast-colour: #fff;
     --contrast-colour-alt: #f9f9f9;
+    --contrast-colour-code: #5c636d20;
+    --contrast-colour-dim: #5c636d10;
     --main-colour: #5c636d;
     --main-border-size: 8px;
     --main-spacing-size: 16px;
@@ -92,6 +94,10 @@ body:before {
     height: 8px;
     width: 100vw;
     z-index: 1;
+}
+main ul li ~ li,
+main ol li ~ li {
+    margin-top:  4px;
 }
 figure {
     display: inline-block;
@@ -145,6 +151,10 @@ h2,
 h3 {
     text-transform: capitalize;
 }
+h3,
+h4 {
+    margin-top: 32px;
+}
 p {
     line-height: 1.6;
 }
@@ -158,13 +168,15 @@ pre {
     background: var(--contrast-colour);
     border: 1px solid var(--main-colour);
     border-left: 8px solid var(--main-colour);
-    margin: 8px;
-    padding: 8px;
+    font-size: 16px;
+    margin: 0 0 24px 0;
+    padding: 16px 16px 16px 20px;
+    white-space: pre-wrap;
 }
 code {
-    background: var(--contrast-colour);
-    display: inline-block;
-    padding: 0 4px;
+    background-color: var(--contrast-colour);
+    background-color: var(--contrast-colour-code);
+    font-size: 16px;
 }
 
 /**
@@ -268,7 +280,10 @@ html.menu--toggled .menu::-webkit-scrollbar {
     flex-direction: column;
 }
 .content__wrap {
-    max-width: 768px;
+    max-width: 655px;
+}
+.content__wrap ul li ~ li {
+    margin-top: 8px;
 }
 .footer {
     display: block;
@@ -420,6 +435,9 @@ body.category-games main ul {
     list-style: none;
     padding-left:  16px;
 }
+body.category-games main ul li ~ li {
+    margin-top: 4px;
+}
 body.category-games main ul li i {
     margin-right:  8px;
     position: relative;
@@ -543,6 +561,9 @@ body.single-post .content figure {
     h1 {
         font-size: 28px;
     }
+    pre {
+        margin-left:  16px;
+    }
 
     .wrap {
         padding: 0;
@@ -591,9 +612,13 @@ body.single-post .content figure {
         text-align: center;
     }
     .menu__header {
+        background-color: var(--contrast-colour-dim);
         border-bottom:  none;
+        border-radius: 4px;
+        display: inline-block;
         font-family: Lato,sans-serif;
-        opacity: .2;
+        opacity: 1;
+        padding: 8px 64px;
     }
     .menu__list {
         margin-top: 8px;
