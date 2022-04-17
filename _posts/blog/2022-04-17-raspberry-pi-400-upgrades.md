@@ -119,7 +119,7 @@ Execution of: `time { sudo apt update; sudo apt dist-upgrade -y; }`
 real		0m18.911s
 user		0m10.906s
 sys 		0m4.033s
-</pre>Modern Raspberry Pis are said to support natively booting from USB 3.0, so running one from a USB SSD seems like the most obvious way to improve performance. An additional method is to overclock it. Running the 64-bit OS opposed to the 32-bit recommended release seems to afford additional performance too.
+</pre>
 
 
 ### Final Thoughts
