@@ -283,7 +283,6 @@ html.menu--toggled .menu::-webkit-scrollbar {
     max-width: 655px;
 }
 .content__wrap ul li {
-    padding-left: 24px;
     position: relative;
 }
 .content__wrap ul li ~ li {
@@ -293,7 +292,7 @@ html.menu--toggled .menu::-webkit-scrollbar {
     display: block;
     font-size: 12px;
     margin-top: 2px;
-    opacity: .5;
+    opacity: .75;
 }
 .footer {
     display: block;
@@ -475,6 +474,9 @@ body.category-blog main h3 i {
 body.category-blog main ul {
     list-style: none;
     padding-left:  16px;
+}
+body.category-blog .content__wrap ul li {
+    padding-left:  24px;
 }
 body.category-blog main ul li i {
     position: absolute;
