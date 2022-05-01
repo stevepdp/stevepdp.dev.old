@@ -283,8 +283,10 @@ html.menu--toggled .menu::-webkit-scrollbar {
     max-width: 655px;
 }
 .content__wrap ul li {
-    padding-left: 24px;
     position: relative;
+}
+.category-blog .content__wrap ul li {
+    padding-left:  24px;
 }
 .content__wrap ul li ~ li {
     margin-top: 8px;
@@ -293,7 +295,7 @@ html.menu--toggled .menu::-webkit-scrollbar {
     display: block;
     font-size: 12px;
     margin-top: 2px;
-    opacity: .5;
+    opacity: .75;
 }
 .footer {
     display: block;
