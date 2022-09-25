@@ -333,6 +333,9 @@ html.menu--toggled .menu::-webkit-scrollbar {
 .content__wrap ul li {
     position: relative;
 }
+.category-blog .content__wrap ul li {
+    padding-left:  24px;
+}
 .content__wrap ul li ~ li {
     margin-top: 8px;
 }
