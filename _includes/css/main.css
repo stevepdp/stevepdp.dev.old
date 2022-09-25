@@ -48,6 +48,36 @@
     --main-spacing-size: 16px;
 }
 
+/***
+ * Dark
+ */
+@media (prefers-color-scheme: dark) {
+    :root {
+        --contrast-colour: #181a1b;
+        --contrast-colour-alt: #1b1e1f;
+        --contrast-colour-code: #32302d;
+        --contrast-colour-dim: #4c52550f;
+        --main-colour: #a9a196;
+    }
+    ::-webkit-scrollbar {
+      width: 16px;
+    }
+    ::-webkit-scrollbar-track {
+      background: #1b1e1f;
+    }
+    ::-webkit-scrollbar-thumb {
+      background: #837d74; 
+    }
+    ::-webkit-scrollbar-thumb:hover {
+      background: #625e57; 
+    }
+    img,
+    video {
+        filter: brightness(0.8);
+    }
+}
+
+
 /**
  * Hack: box-sizing
  * See https://css-tricks.com/box-sizing/
@@ -85,16 +115,6 @@ body {
     padding: 0 0 80px;
     position: relative;
 }
-body:before {
-    content: '';
-    background-color: var(--main-colour);
-    position: fixed;
-    top: 0;
-    left: 0;
-    height: 8px;
-    width: 100vw;
-    z-index: 1;
-}
 main ul li ~ li,
 main ol li ~ li {
     margin-top:  4px;
@@ -105,7 +125,7 @@ figure {
     margin-right: 0;
 }
 figcaption {
-    color: var(--contrast-colour);;
+    color: var(--contrast-colour);
     background: var(--main-colour);
     border-bottom-left-radius: 16px;
     border-bottom-right-radius: 16px;
@@ -113,6 +133,20 @@ figcaption {
     font-style: italic;
     padding: 3px 0 6px;
     text-align: center;
+}
+
+@media(prefers-color-scheme: light) {
+    
+    body:before {
+        content: '';
+        background-color: var(--main-colour);
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 8px;
+        width: 100vw;
+        z-index: 1;
+    }
 }
 
 /**
@@ -219,7 +253,7 @@ html.menu--toggled .burger:before {
     position: fixed;
         top: -100vh;
         left: 0;
-    overflow-y: scroll;
+    overflow-y: auto;
     transition: var(--main-anim-speed) top;
     width: 100%;
     will-change: top;
@@ -270,6 +304,20 @@ html.menu--toggled .menu::-webkit-scrollbar {
     margin: 0;
     opacity: .2;
     padding: 16px 8px;
+}
+
+@media (prefers-color-scheme: dark) {
+
+    .menu {
+        background-color: #1b1e1f;
+    }
+    .menu__header,
+    .menu__list li a {
+        color: #a9a196;
+    }
+    .menu__header {
+        border-bottom-color: #a9a196;
+    }
 }
 
 /**
@@ -677,6 +725,14 @@ body.single-post .content figure {
     }
 }
 
+@media((min-width: 1024px) and (prefers-color-scheme: dark))
+{
+    .content,
+    .sidebar {
+        border-top: none;
+    }
+}
+
 @media(min-width: 1200px) {
 
     figure img {
@@ -758,6 +814,13 @@ body.single-post .content figure {
         max-width: 375px;
         padding: 0 0 32px 32px;
         width: 100%;
+    }
+}
+
+@media((min-width: 1366px) and (prefers-color-scheme: dark)) {
+
+    body {
+        background-color: #4c5255;
     }
 }
 
