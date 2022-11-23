@@ -493,7 +493,7 @@ body.category-games .tag + .tag {
 }
 body.category-games main ul {
     list-style: none;
-    padding-left:  16px;
+    padding-left:  24px;
 }
 body.category-games main ul li ~ li {
     margin-top: 4px;
@@ -807,7 +807,13 @@ body.single-post .content figure {
         font-size: 28px;
         padding: 8px 0;
     }
-
+    body.category-blog main ul {
+        margin-top: 24px;
+        padding-left: 0;
+    }
+    body.category-blog .content__wrap ul li ~ li {
+        margin-top: 16px;
+    }
     figure img {
         width: 100%;
     }
@@ -848,6 +854,12 @@ body.single-post .content figure {
         margin: 16px 0;
     }
 
+    body.category-blog main ul {
+        margin-top: 32px;
+    }
+    body.category-blog .content__wrap ul li ~ li {
+        margin-top: 24px;
+    }
     figure img {
         width: auto;
     }
