@@ -3,7 +3,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Stephen Pearce: {{page.title}}</title>
     <meta name="author" content="Stephen Pearce">
-    <meta name="description" content="Stephen Pearce's homepage. Featuring games, retrospectives and a blog.">
+    <meta name="description" content="{{page.og_description}}">
     <meta name="keywords" content="Stephen Pearce, stevepdp, game developer, game development, devlog, dev blog, development blog">
     {% include icons.html %}
     <!-- pre-connects -->
@@ -16,8 +16,9 @@
     <!-- scripts -->
     <script src="/assets/js/main.js" defer></script>
     <!-- opengraph -->
-    <meta property="og:title" content="{{page.og_title}}">
-    <meta property="og:image" content="{{page.og_image}}">
-    <meta property="og:type" content="website">
     <meta property="og:url" content="https://stevepdp.dev{{page.url}}">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="{{page.og_title}}">
+    <meta property="og:description" content="{{page.og_description}}">
+    <meta property="og:image" content="{{page.og_image}}">
 </head>
