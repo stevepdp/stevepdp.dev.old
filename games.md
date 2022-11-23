@@ -14,7 +14,7 @@ type: category-games
 <h3>{{ tag | first | replace: '-', ' ' | capitalize }}</h3>
 <ul>
 {% for post in tag[1] %}
-<li><i class="fas fa-gamepad" aria-hidden="true"></i><a href="{{post.url}}" title="Click to read about {{post.title}}">{{post.title}}</a></li>
+<li><i class="fa fa-gamepad" aria-hidden="true"></i><a href="{{post.url}}" title="Click to read about {{post.title}}">{{post.title}}</a></li>
 {% endfor %}
 </ul>
 </div>
@@ -27,7 +27,7 @@ type: category-games
 <h3>{{ tag | first | replace: '-', ' ' | capitalize }}</h3>
 <ul>
 {% for post in tag[1] %}
-<li><i class="fas fa-gamepad" aria-hidden="true"></i><a href="{{post.url}}" title="Click to read about {{post.title}}">{{post.title}}</a></li>
+<li><i class="fa fa-gamepad" aria-hidden="true"></i><a href="{{post.url}}" title="Click to read about {{post.title}}">{{post.title}}</a></li>
 {% endfor %}
 </ul>
 </div>
@@ -40,7 +40,7 @@ type: category-games
 <h3>{{ tag | first | replace: '-', ' ' | capitalize }}</h3>
 <ul>
 {% for post in tag[1] %}
-<li><i class="fas fa-gamepad" aria-hidden="true"></i><a href="{{post.url}}" title="Click to read about {{post.title}}">{{post.title}}</a></li>
+<li><i class="fa fa-gamepad" aria-hidden="true"></i><a href="{{post.url}}" title="Click to read about {{post.title}}">{{post.title}}</a></li>
 {% endfor %}
 </ul>
 </div>
@@ -53,7 +53,7 @@ type: category-games
 <h3>{{ tag | first | replace: '-', ' ' | capitalize }}</h3>
 <ul>
 {% for post in tag[1] %}
-<li><i class="fas fa-gamepad" aria-hidden="true"></i><a href="{{post.url}}" title="Click to read about {{post.title}}">{{post.title}}</a></li>
+<li><i class="fa fa-gamepad" aria-hidden="true"></i><a href="{{post.url}}" title="Click to read about {{post.title}}">{{post.title}}</a></li>
 {% endfor %}
 </ul>
 </div>
@@ -66,7 +66,7 @@ type: category-games
 <h3>{{ tag | first | replace: '-', ' ' | capitalize }}</h3>
 <ul>
 {% for post in tag[1] %}
-<li><i class="fas fa-gamepad" aria-hidden="true"></i><a href="{{post.url}}" title="Click to read about {{post.title}}">{{post.title}}</a></li>
+<li><i class="fa fa-gamepad" aria-hidden="true"></i><a href="{{post.url}}" title="Click to read about {{post.title}}">{{post.title}}</a></li>
 {% endfor %}
 </ul>
 </div>

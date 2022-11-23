@@ -10,7 +10,7 @@ type: category-blog
 
 {% for blog in site.categories.blog %}
 
-<li><i class="fas fa-pen-alt" aria-hidden="true"></i><a href="{{blog.url}}" title="Click to read the entry: {{post.title}}">{{blog.title}}</a>
+<li><i class="fa fa-pencil" aria-hidden="true"></i><a href="{{blog.url}}" title="Click to read the entry: {{post.title}}">{{blog.title}}</a>
 <span class="postdate">
 {% assign d = blog.date | date: "%-d"  %}
 {{ blog.date | date: "%B" }}
