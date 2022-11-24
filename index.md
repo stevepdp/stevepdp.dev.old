@@ -11,7 +11,7 @@ type: single
 
 Hello 👋
 
-I'm working on jam games and similarily scoped projects. I list my efforts <a href="/games.html" title="Click for a list of my games">here</a> together with brief post-mortems for each.
+I'm working on jam games and similarily scoped projects. I list my efforts under <a href="/games.html" title="Click for a list of my games">games</a> together with brief post-mortems for each.
 
 If you&apos;re interested in following along, I post updates on <a href="https://mstdn.social/@stevepdp" rel="me noopener noreferrer" target="_blank">Mastodon</a>.
 

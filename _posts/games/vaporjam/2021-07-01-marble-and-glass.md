@@ -3,6 +3,7 @@ title: Marble & Glass
 permalink: /games/vaporjam/marble-and-glass.html
 
 og_title: "Marble & Glass for VaporJam"
+og_description: "Marble & Glass. A game jam entry for VaporJam"
 og_image: "https://stevepdp.dev/assets/img/games/marble-and-glass/opengraph.png"
 
 layout: single-game
@@ -14,7 +15,7 @@ tag: vaporjam
 Made in two weeks for <a href="https://itch.io/jam/vaporjam" rel="noopener" target="_blank">VaporJam</a>.
 
 <ul class="downloads">
-    <li><a href="https://stevepdp.itch.io/marble-and-glass" rel="noopener" target="_blank"><img src="/assets/img/brands/itch-io-colour.svg" height="48" width="156"></a></li>
+    <li><a href="https://stevepdp.itch.io/marble-and-glass" rel="noopener" target="_blank" aria-label="button"><img src="/assets/img/brands/itch-io-colour.svg" height="48" width="156" alt="Available on itch.io"><span class="assist">Play this game on Itch.io</span></a></li>
 </ul>
 
 <video preload="none" class="trailer" controls muted autoplay loop playsinline>

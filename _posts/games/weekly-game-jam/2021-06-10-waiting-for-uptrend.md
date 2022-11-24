@@ -3,6 +3,7 @@ title: Waiting For Uptrend
 permalink: /games/weekly-game-jam/waiting-for-uptrend.html
 
 og_title: "Waiting For Uptrend for Weekly Game Jam"
+og_description: "Waiting for Uptrend. A game jam entry for Weekly Game Jam."
 og_image: "https://stevepdp.dev/assets/img/games/waiting-for-uptrend/opengraph.png"
 
 layout: single-game
@@ -14,7 +15,7 @@ tag: weekly-game-jam
 Made for <a href="https://itch.io/jam/weekly-game-jam-204" rel="noopener" target="_blank">Weekly Game Jam 204</a>.
 
 <ul class="downloads">
-    <li><a href="https://stevepdp.itch.io/waiting-for-uptrend" rel="noopener" target="_blank"><img src="/assets/img/brands/itch-io-colour.svg" height="48" width="156"></a></li>
+    <li><a href="https://stevepdp.itch.io/waiting-for-uptrend" rel="noopener" target="_blank" aria-label="button"><img src="/assets/img/brands/itch-io-colour.svg" height="48" width="156" alt="Available on itch.io"><span class="assist">Play this game on Itch.io</span></a></li>
 </ul>
 
 <video preload="none" class="trailer" controls muted autoplay loop playsinline>

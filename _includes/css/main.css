@@ -152,6 +152,9 @@ figcaption {
 /**
  * Utility
  */
+.assist {
+    display: none;
+}
 .wrap {
     padding: 16px 8px 64px 8px;
 }
@@ -343,7 +346,7 @@ html.menu--toggled .menu::-webkit-scrollbar {
     display: block;
     font-size: 12px;
     margin-top: 2px;
-    opacity: .75;
+    opacity: .9;
 }
 .footer {
     display: block;
@@ -401,6 +404,8 @@ html.menu--toggled .menu::-webkit-scrollbar {
     text-transform: uppercase;
 }
 .headline a {
+    display: inline-block;
+    padding: 8px;
     text-decoration: none;
 }
 .headline__sub {
@@ -474,6 +479,7 @@ figure img {
     display: inline-block;
 }
 .trailer {
+    height: auto;
     max-width: 640px;
     width: 100%;
 }
@@ -484,19 +490,22 @@ figure img {
 body.category-games main h2 {
     display: inline;
 }
-body.category-games main ul li a {
-    font-family: Lato, sans-serif;
-    font-weight: 400;
-}
 body.category-games .tag + .tag {
     margin-top: 32px;
 }
 body.category-games main ul {
     list-style: none;
+    margin: 0;
     padding-left:  24px;
 }
 body.category-games main ul li ~ li {
     margin-top: 4px;
+}
+body.category-games main ul li a {
+    display: inline-block;
+    font-family: Lato, sans-serif;
+    font-weight: 400;
+    padding: 4px 0;
 }
 body.category-games main ul li i {
     margin-right:  8px;
@@ -569,7 +578,7 @@ body.single-post .content figure {
         width: 128px;
     }
     .headline {
-        margin: 32px 0;
+        margin: 24px 0;
     }
 }
 

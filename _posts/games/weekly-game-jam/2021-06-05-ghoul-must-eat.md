@@ -3,6 +3,7 @@ title: Ghoul Must Eat
 permalink: /games/weekly-game-jam/ghoul-must-eat.html
 
 og_title: "Ghoul Must Eat for Weekly Game Jam"
+og_description: "Ghoul Must Eat. A game jam entry for Weekly Game Jam."
 og_image: "https://stevepdp.dev/assets/img/games/ghoul-must-eat/opengraph.png"
 
 layout: single-game
@@ -14,7 +15,7 @@ tag: weekly-game-jam
 Made for <a href="https://itch.io/jam/weekly-game-jam-203" rel="noopener" target="_blank">Weekly Game Jam 203</a>.
 
 <ul class="downloads">
-    <li><a href="https://stevepdp.itch.io/ghoul-must-eat" rel="noopener" target="_blank"><img src="/assets/img/brands/itch-io-colour.svg" height="48" width="156"></a></li>
+    <li><a href="https://stevepdp.itch.io/ghoul-must-eat" rel="noopener" target="_blank" aria-label="button"><img src="/assets/img/brands/itch-io-colour.svg" height="48" width="156" alt="Available on itch.io"><span class="assist">Play this game on Itch.io</span></a></li>
 </ul>
 
 <video preload="none" class="trailer" controls muted autoplay loop playsinline>

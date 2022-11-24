@@ -3,6 +3,7 @@ title: Into The Clouds
 permalink: /games/one-hour-game-jam/into-the-clouds.html
 
 og_title: "Into The Clouds for One Hour Game Jam"
+og_description: "Into The Clouds. A game jam entry for One Hour Game Jam."
 og_image: "https://stevepdp.dev/assets/img/games/into-the-clouds/opengraph.png"
 
 layout: single-game
@@ -14,7 +15,7 @@ tag: one-hour-game-jam
 Made in approximately one hour for <a href="https://onehourgamejam.com/?page=jam&jam=323" rel="noopener" target="_blank">One Hour Game Jam</a> with the theme "Clouds".
 
 <ul class="downloads">
-    <li><a href="https://stevepdp.itch.io/into-the-clouds" rel="noopener" target="_blank"><img src="/assets/img/brands/itch-io-colour.svg" height="48" width="156"></a></li>
+    <li><a href="https://stevepdp.itch.io/into-the-clouds" rel="noopener" target="_blank" aria-label="button"><img src="/assets/img/brands/itch-io-colour.svg" height="48" width="156" alt="Available on itch.io"><span class="assist">Play this game on Itch.io</span></a></li>
 </ul>
 
 <video preload="none" class="trailer" controls muted autoplay loop playsinline>

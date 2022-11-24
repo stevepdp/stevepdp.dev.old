@@ -3,6 +3,7 @@ title: Matias RGB Backlit Wired Aluminium Keyboard for PC
 permalink: /blog/matias-rgb-keyboard-for-pc.html
 
 og_title: "Matias RGB Backlit Wired Aluminium Keyboard for PC"
+og_description: "Detailing my experience with a PC & Linux friendly alternative to Apple's wired USB keyboard."
 og_image: "https://stevepdp.dev/assets/img/blog/matias-rgb-keyboard-for-pc-unboxed-lg.jpg"
 
 layout: single-blog
