@@ -23,7 +23,7 @@ This website is Copyright &copy; 2022 Stephen Pearce.
 
 ### Licensed Assets
 
-#### Fork Awesome CSS
+#### CSS: Fork Awesome
 <pre>
 Fork Awesome 1.2.0
 License - https://forkaweso.me/Fork-Awesome/license
@@ -33,4 +33,23 @@ Copyright 2018 Dave Gandy & Fork Awesome
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
 The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+</pre>
+
+#### Font: Lato
+<pre>
+SIL Open Font License
+Copyright (c) 2010-2014, Łukasz Dziedzic (dziedzic@typoland.com),
+with Reserved Font Name Lato.
+
+This Font Software is licensed under the SIL Open Font License, Version 1.1.
+</pre>
+
+#### Font: Raleway
+<pre>
+SIL Open Font License
+Copyright (c) 2010, Matt McInerney (matt@pixelspread.com),
+Copyright (c) 2011, Pablo Impallari (www.impallari.com|impallari@gmail.com),
+Copyright (c) 2011, Rodrigo Fuenzalida (www.rfuenzalida.com|hello@rfuenzalida.com), with Reserved Font Name Raleway
+
+This Font Software is licensed under the SIL Open Font License, Version 1.1.
 </pre>
