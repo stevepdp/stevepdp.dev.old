@@ -703,8 +703,14 @@ body.single-post .content figure {
     .menu__list li {
         width: auto;
     }
+    .menu__list li.licenses {
+        position: absolute;
+        bottom: 56px;
+        left: 0;
+        width: 100%;
+    }
     /* Todo: do something with this to show the current page;
-    /*.menu__list li:first-of-type a:before {
+    .menu__list li:first-of-type a:before {
         content: "✪";
         display: inline-block;
         margin-right: 8px;
@@ -806,6 +812,9 @@ body.single-post .content figure {
     }
     .menu__list {
         margin-top: 16px;
+    }
+    .menu__list li.licenses {
+        bottom: 64px;
     }
     .menu__list li.highlight {
         margin-bottom: 32px;
