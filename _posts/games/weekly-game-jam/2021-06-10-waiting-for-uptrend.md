@@ -2,6 +2,9 @@
 title: Waiting For Uptrend
 permalink: /games/weekly-game-jam/waiting-for-uptrend.html
 
+video: waiting-for-uptrend-clip.mp4
+itch_url: waiting-for-uptrend
+
 og_title: "Waiting For Uptrend for Weekly Game Jam"
 og_description: "Waiting for Uptrend. A game jam entry for Weekly Game Jam."
 og_image: "https://stevepdp.dev/assets/img/games/waiting-for-uptrend/opengraph.png"
@@ -11,14 +14,6 @@ type: single-game
 category: games
 tag: weekly-game-jam
 ---
-
-<div class="preview">
-    <video preload="none" class="preview__trailer" alt="Multiplanetary gameplay sample" controls muted autoplay loop playsinline>
-        <source src="/assets/video/waiting-for-uptrend-clip.mp4" type="video/mp4">
-        Your browser does not appear to support mp4 video.
-    </video>
-    <div class="preview__buttons"><a href="https://stevepdp.itch.io/waiting-for-uptrend" rel="noopener" target="_blank" aria-label="button"><img src="/assets/img/brands/itch-io-colour.svg" height="48" width="156" alt="Available on itch.io"><span class="assist">Play this game on Itch.io</span></a></div>
-</div>
 
 Made for <a href="https://itch.io/jam/weekly-game-jam-204" rel="noopener" target="_blank">Weekly Game Jam 204</a>.
 

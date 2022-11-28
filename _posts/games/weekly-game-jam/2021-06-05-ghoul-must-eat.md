@@ -2,6 +2,9 @@
 title: Ghoul Must Eat
 permalink: /games/weekly-game-jam/ghoul-must-eat.html
 
+video: ghoul-must-eat-clip.mp4
+itch_url: ghoul-must-eat
+
 og_title: "Ghoul Must Eat for Weekly Game Jam"
 og_description: "Ghoul Must Eat. A game jam entry for Weekly Game Jam."
 og_image: "https://stevepdp.dev/assets/img/games/ghoul-must-eat/opengraph.png"
@@ -11,14 +14,6 @@ type: single-game
 category: games
 tag: weekly-game-jam
 ---
-
-<div class="preview">
-    <video preload="none" class="preview__trailer" alt="Multiplanetary gameplay sample" controls muted autoplay loop playsinline>
-        <source src="/assets/video/ghoul-must-eat-clip.mp4" type="video/mp4">
-        Your browser does not appear to support mp4 video.
-    </video>
-    <div class="preview__buttons"><a href="https://stevepdp.itch.io/ghoul-must-eat" rel="noopener" target="_blank" aria-label="button"><img src="/assets/img/brands/itch-io-colour.svg" height="48" width="156" alt="Available on itch.io"><span class="assist">Play this game on Itch.io</span></a></div>
-</div>
 
 Made for <a href="https://itch.io/jam/weekly-game-jam-203" rel="noopener" target="_blank">Weekly Game Jam 203</a>.
 

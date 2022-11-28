@@ -2,6 +2,9 @@
 title: It Has A Beard
 permalink: /games/one-hour-game-jam/it-has-a-beard.html
 
+video: it-has-a-beard-clip.mp4
+itch_url: it-has-a-beard
+
 og_title: "It Has A Beard for One Hour Game Jam"
 og_description: "It Has A Beard. A game jam entry for One Hour Game Jam"
 og_image: "https://stevepdp.dev/assets/img/games/it-has-a-beard/opengraph.png"
@@ -11,14 +14,6 @@ type: single-game
 category: games
 tag: one-hour-game-jam
 ---
-
-<div class="preview">
-    <video preload="none" class="preview__trailer" alt="Multiplanetary gameplay sample" controls muted autoplay loop playsinline>
-        <source src="/assets/video/it-has-a-beard-clip.mp4" type="video/mp4">
-        Your browser does not appear to support mp4 video.
-    </video>
-    <div class="preview__buttons"><a href="https://stevepdp.itch.io/it-has-a-beard" rel="noopener" target="_blank" aria-label="button"><img src="/assets/img/brands/itch-io-colour.svg" height="48" width="156" alt="Available on itch.io"><span class="assist">Play this game on Itch.io</span></a></div>
-</div>
 
 Made in approximately one hour for <a href="https://onehourgamejam.com/?page=jam&jam=326" rel="noopener" target="_blank">One Hour Game Jam</a> with the theme "Virtual Pet".
 

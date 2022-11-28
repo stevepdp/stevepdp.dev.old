@@ -2,6 +2,9 @@
 title: Multiplanetary
 permalink: /games/ludum-dare/multiplanetary.html
 
+video: multiplanetary-clip.mp4
+itch_url: multiplanetary
+
 og_title: "Multiplanetary for Ludum Dare 50"
 og_description: "Multiplanetary. A game jam entry for Ludum Dare 50"
 og_image: "https://stevepdp.dev/assets/img/games/multiplanetary/opengraph.png"
@@ -11,14 +14,6 @@ type: single-game
 category: games
 tag: ludum-dare
 ---
-
-<div class="preview">
-    <video preload="none" class="preview__trailer" alt="Multiplanetary gameplay sample" controls muted autoplay loop playsinline>
-        <source src="/assets/video/multiplanetary-clip.mp4" type="video/mp4">
-        Your browser does not appear to support mp4 video.
-    </video>
-    <div class="preview__buttons"><a href="https://stevepdp.itch.io/multiplanetary" rel="noopener" target="_blank" aria-label="button"><img src="/assets/img/brands/itch-io-colour.svg" height="48" width="156" alt="Available on itch.io"><span class="assist">Play this game on Itch.io</span></a></div>
-</div>
 
 Made in 72 hours for <a href="https://ldjam.com/events/ludum-dare/50" rel="noopener" target="_blank">Ludum Dare 50</a> with the theme "delay the inevitable".
 

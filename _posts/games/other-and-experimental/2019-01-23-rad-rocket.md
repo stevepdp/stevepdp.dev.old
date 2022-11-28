@@ -12,6 +12,13 @@ category: games
 tag: other-and-experimental
 ---
 
+<style>
+/* todo: replace YouTube video here with a hosted video */
+.preview {
+	display: none;
+}
+</style>
+
 <iframe width="320" height="568" src="https://www.youtube.com/embed/oIJKBQObx1g?autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Rad Rocket was my first attempt at making, marketing and releasing a game.
