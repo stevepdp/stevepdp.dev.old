@@ -12,16 +12,15 @@ category: games
 tag: vaporjam
 ---
 
+<div class="preview">
+    <video preload="none" class="preview__trailer" alt="Multiplanetary gameplay sample" controls muted autoplay loop playsinline>
+        <source src="/assets/video/marble-and-glass-clip.mp4" type="video/mp4">
+        Your browser does not appear to support mp4 video.
+    </video>
+    <div class="preview__buttons"><a href="https://stevepdp.itch.io/marble-and-glass" rel="noopener" target="_blank" aria-label="button"><img src="/assets/img/brands/itch-io-colour.svg" height="48" width="156" alt="Available on itch.io"><span class="assist">Play this game on Itch.io</span></a></div>
+</div>
+
 Made in two weeks for <a href="https://itch.io/jam/vaporjam" rel="noopener" target="_blank">VaporJam</a>.
-
-<ul class="downloads">
-    <li><a href="https://stevepdp.itch.io/marble-and-glass" rel="noopener" target="_blank" aria-label="button"><img src="/assets/img/brands/itch-io-colour.svg" height="48" width="156" alt="Available on itch.io"><span class="assist">Play this game on Itch.io</span></a></li>
-</ul>
-
-<video preload="none" class="trailer" controls muted autoplay loop playsinline>
-    <source src="/assets/video/marble-and-glass-clip.mp4" type="video/mp4">
-    Your browser does not appear to support mp4 video.
-</video>
 
 ### Retrospective
 

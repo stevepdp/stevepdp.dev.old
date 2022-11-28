@@ -115,10 +115,6 @@ body {
     padding: 0 0 80px;
     position: relative;
 }
-main ul li ~ li,
-main ol li ~ li {
-    margin-top:  4px;
-}
 figure {
     display: inline-block;
     margin-left: 0;
@@ -194,14 +190,10 @@ h3 {
 h4 {
     margin-top: 24px;
 }
-p {
+p,
+ul,
+ol {
     line-height: 1.6;
-}
-a {
-    color: var(--main-colour);
-}
-a:focus {
-    outline-color: var(--main-colour);
 }
 pre {
     background: var(--contrast-colour);
@@ -212,6 +204,19 @@ pre {
     padding: 16px 16px 16px 20px;
     overflow-x: auto;
     white-space: pre-wrap;
+}
+p,
+ul,
+ol,
+pre {
+    max-width: 540px;
+    max-width: 70ch;
+}
+a {
+    color: var(--main-colour);
+}
+a:focus {
+    outline-color: var(--main-colour);
 }
 code {
     background-color: var(--contrast-colour);
@@ -232,7 +237,7 @@ code {
     display: block;
     font-family: "Lato", sans-serif;
     height: auto;
-    min-width: 102px;
+    min-width: 112px;
     opacity: .95;
     outline: none;
     position: fixed;
@@ -333,17 +338,11 @@ html.menu--toggled .menu::-webkit-scrollbar {
     display: flex;
     flex-direction: column;
 }
-.content__wrap {
-    max-width: 655px;
-}
 .content__wrap ul li {
     position: relative;
 }
 .category-blog .content__wrap ul li {
     padding-left:  24px;
-}
-.content__wrap ul li ~ li {
-    margin-top: 8px;
 }
 .content__wrap .postdate {
     display: block;
@@ -384,6 +383,7 @@ html.menu--toggled .menu::-webkit-scrollbar {
 }
 .icons {
     margin: -8px 0 0;
+    max-width: 100%;
     padding: 0;
 }
 .icons li {
@@ -470,22 +470,6 @@ figure img {
     display: block;
     width: 100%;
 }
-.downloads {
-    list-style: none;
-    margin: 32px 0;
-    padding: 0;
-}
-.downloads li + li {
-    margin-top: 24px;
-}
-.downloads li a img {
-    display: inline-block;
-}
-.trailer {
-    height: auto;
-    max-width: 640px;
-    width: 100%;
-}
 
 /**
  * Category: games
@@ -501,9 +485,6 @@ body.category-games main ul {
     margin: 0;
     padding-left:  24px;
 }
-body.category-games main ul li ~ li {
-    margin-top: 4px;
-}
 body.category-games main ul li a {
     display: inline-block;
     font-family: Lato, sans-serif;
@@ -514,6 +495,21 @@ body.category-games main ul li i {
     margin-right:  8px;
     position: relative;
     top:  2px;
+}
+.preview {
+    display: block;
+    height: auto;
+    margin: 0 0 16px 0;
+    width: 100%;
+    text-align: right;
+}
+.preview__trailer {
+    display: block;
+    height: auto;
+    width: 100%;
+}
+.preview__buttons {
+    margin-top: 4px;
 }
 
 /**
@@ -537,6 +533,9 @@ body.category-blog main h3 i {
 body.category-blog main ul {
     list-style: none;
     padding-left:  16px;
+}
+body.category-blog main ul li ~ li {
+    margin-top: 12px;
 }
 body.category-blog .content__wrap ul li {
     padding-left:  24px;
@@ -591,6 +590,14 @@ body.single-post .content figure {
     .menu__header,
     .menu__list li a {
         text-align: center;
+    }
+}
+
+@media(min-width: 640px) {
+
+    .preview {
+        margin: 0 auto;
+        max-width: 640px;
     }
 }
 
@@ -720,7 +727,7 @@ body.single-post .content figure {
     }*/
     .menu__list li a {
         font-size: 26px;
-        padding: 4px 0;
+        padding: 8px 0;
     }
     .menu__list li.highlight {
         margin-bottom: 16px;
@@ -743,6 +750,9 @@ body.single-post .content figure {
     }
     figure img {
         width: 100%;
+    }
+    .preview {
+        margin: 0;
     }
 }
 
@@ -779,6 +789,9 @@ body.single-post .content figure {
         max-width: 768px;
         padding: 64px 48px;
     }
+    .content__wrap {
+        max-width: 1024px;
+    }
     .articles__header h1 a:hover,
     .articles__feed:hover,
     .articles__single header h1 a:hover {
@@ -787,7 +800,6 @@ body.single-post .content figure {
     .articles__single header h1 a {
         display: inline-block;
     }
-
     .sidebar {
         border-top: none;
         padding-top: 64px;
@@ -832,17 +844,7 @@ body.single-post .content figure {
         margin-top: 24px;
         padding-left: 0;
     }
-    body.category-blog .content__wrap ul li ~ li {
-        margin-top: 16px;
-    }
     figure img {
-        width: 100%;
-    }
-    .trailer {
-        float: right;
-        height: auto;
-        max-width: 375px;
-        padding: 0 0 32px 32px;
         width: 100%;
     }
 }
@@ -884,9 +886,8 @@ body.single-post .content figure {
     figure img {
         width: auto;
     }
-
-    .trailer {
-        max-width: 414px;
-        padding: 0 0 64px 64px;
+    .preview {
+        float: right;
+        margin: 0 0 32px 64px;
     }
 }
