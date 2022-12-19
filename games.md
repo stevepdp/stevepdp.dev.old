@@ -2,7 +2,7 @@
 title: Games
 
 og_title: "Games by Stephen Pearce"
-og_image: 
+og_description: "Stephen Pearce's blog. Musings on tech. Software, hardware and tales of development."
 
 layout: category-games
 type: category-games

@@ -1,5 +1,10 @@
 ---
 title: Blog
+
+og_title: "Stephen Pearce's Blog"
+og_description: "Stephen Pearce's blog. Musings on tech. Software, hardware and tales of development."
+og_image: "https://stevepdp.dev/assets/img/stevepdp_130x.png"
+
 layout: category-blog
 type: category-blog
 ---
