@@ -208,8 +208,9 @@ pre {
 p,
 ul,
 ol,
-pre {
-    max-width: 540px;
+pre,
+.footer {
+    max-width: 620px;
     max-width: 70ch;
 }
 a {
