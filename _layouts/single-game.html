@@ -10,16 +10,17 @@
                 {% include sidebar.html %}
 
                 <!-- content -->
-                <main class="content__wrap">
-                    <article>
-                        <header>
-                            <h2>{{page.title}}</h2>
-                        </header>
+                <div class="content__parent">
+                    <main class="content__wrap">
+                        <article>
+                            <header>
+                                <h2>{{page.title}}</h2>
+                            </header>
                             {% include preview.html %}
                             {{content}}
-                        <footer></footer>
-                    </article>
-                </main>
+                        </article>
+                    </main>
+                </div>
             </div>
         </div>
         {% include fork-awesome.html %}

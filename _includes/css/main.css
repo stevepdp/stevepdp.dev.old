@@ -51,7 +51,7 @@
 /***
  * Dark
  */
-@media (prefers-color-scheme: dark) {
+@media(prefers-color-scheme: dark) {
     :root {
         --contrast-colour: #181a1b;
         --contrast-colour-alt: #1b1e1f;
@@ -155,17 +155,10 @@ figcaption {
     display: none;
 }
 .wrap {
-    padding: 16px 8px 64px 8px;
-}
-.center {
-    text-align: center;
+    padding: 8px 8px 64px 8px;
 }
 .sr-only {
     display: none;
-}
-.wide {
-    height: auto;
-    width: 100%;
 }
 
 /** 
@@ -188,10 +181,14 @@ h3 {
     text-transform: capitalize;
 }
 h3 {
-    margin-top: 32px;
+    font-size: 18px;
+    margin-top: 40px;
+    margin-bottom: 0;
 }
 h4 {
-    margin-top: 24px;
+    font-size: 16px;
+    margin-top: 32px;
+    margin-bottom: 0;
 }
 p,
 ul,
@@ -291,6 +288,7 @@ html.menu--toggled .menu::-webkit-scrollbar {
   display: none;
 }
 .menu__inner {
+    padding-bottom: 128px;
     z-index: 1;
 }
 .menu__list {
@@ -299,6 +297,7 @@ html.menu--toggled .menu::-webkit-scrollbar {
 }
 .menu__list li {
     display: block;
+    margin-top: 0;
     width: calc(100vw);
 }
 .menu__header,
@@ -321,7 +320,7 @@ html.menu--toggled .menu::-webkit-scrollbar {
     padding: 16px 8px;
 }
 
-@media (prefers-color-scheme: dark) {
+@media(prefers-color-scheme: dark) {
 
     .menu {
         background-color: #1b1e1f;
@@ -339,8 +338,7 @@ html.menu--toggled .menu::-webkit-scrollbar {
  * Content
  */
 .content {
-    display: flex;
-    flex-direction: column;
+    padding: 0;
 }
 .content__wrap ul li {
     position: relative;
@@ -355,9 +353,8 @@ html.menu--toggled .menu::-webkit-scrollbar {
     opacity: .9;
 }
 .footer {
-    display: block;
     line-height: 1.6;
-    margin-top: 16px;
+    margin-top: 32px;
 }
 .post-date {
     font-style: italic;
@@ -375,8 +372,7 @@ html.menu--toggled .menu::-webkit-scrollbar {
 .sidebar {
     -ms-overflow-style: none;  /* IE and Edge */
     scrollbar-width: none;  /* Firefox */
-/*    margin: 64px 0 calc(64px - 8px);*/
-    margin: 8px 0 24px;
+    margin: 16px 0;
     overflow-y: scroll;
     overflow-x: hidden;
     text-align: left;
@@ -494,7 +490,7 @@ body.category-games .tag + .tag {
 }
 body.category-games main ul {
     list-style: none;
-    margin: 0;
+    margin: 16px 0 0;
     padding-left:  24px;
 }
 body.category-games main ul li a {
@@ -505,8 +501,6 @@ body.category-games main ul li a {
 }
 body.category-games main ul li i {
     margin-right:  8px;
-    position: relative;
-    top:  2px;
 }
 .preview {
     display: block;
@@ -544,7 +538,7 @@ body.category-blog main h3 i {
 }
 body.category-blog main ul {
     list-style: none;
-    padding-left:  16px;
+    padding-left:  0;
 }
 body.category-blog main ul li ~ li {
     margin-top: 12px;
@@ -554,13 +548,9 @@ body.category-blog .content__wrap ul li {
 }
 body.category-blog main ul li i {
     position: absolute;
-    top: 4px;
+    top: 6px;
     left:  0;
 }
-body.category-blog main ul li a {
-
-}
-
 
 /**
  * Single: blog
@@ -598,10 +588,7 @@ body.single-post .content figure {
         /*width: 128px;*/
     }
     .sidebar {
-        margin: 16px 0 32px;
-    }
-    .headline {
-/*        margin: 24px 0;*/
+        margin: 24px 0;
     }
 }
 
@@ -625,11 +612,8 @@ body.single-post .content figure {
 
 @media(min-width: 768px) {
 
-    h1 {
-        font-size: 24px;
-    }
-    h2 {
-        font-size: 28px;
+    .sidebar {
+        margin: 32px 0;
     }
 
     /* Menu */
@@ -657,7 +641,7 @@ body.single-post .content figure {
     }
 }
 
-@media(min-width: 1024px) {
+@media((min-width: 1024px) and (min-height: 650px)) {
 
     body {
         padding: 0;
@@ -665,8 +649,10 @@ body.single-post .content figure {
     body:before {
         display: none;
     }
-
     h1 {
+        font-size: 24px;
+    }
+    h2 {
         font-size: 28px;
     }
     pre {
@@ -676,7 +662,6 @@ body.single-post .content figure {
     .wrap {
         padding: 0;
     }
-
     .content {
         background: var(--contrast-colour-alt);
         /*box-shadow: inset 0px 8px 0 0 var(--main-colour);
@@ -685,9 +670,8 @@ body.single-post .content figure {
         height: 100vh;
         margin-left: 320px;
         overflow-y: scroll;
-        padding: calc(48px + 8px) 32px 16px;
+        padding: 64px 48px;
     }
-
     .sidebar {
         background: var(--contrast-colour);
         border-top: 8px solid var(--main-colour);
@@ -700,7 +684,6 @@ body.single-post .content figure {
         top: 0;
         width: 320px;
         text-align: center;
-
     }
     .avatar {
         display: block;
@@ -709,7 +692,7 @@ body.single-post .content figure {
         width: 128px;
     }
     .headline {
-        margin: 24px 0;
+        margin: 8px 0 0;
         left: auto;
         top: auto;
     }
@@ -717,7 +700,7 @@ body.single-post .content figure {
         padding: 8px;
     }
     .headline__sub {
-        margin-top: 8px;
+        margin-top: 4px;
     }
     .icons {
         position: absolute;
@@ -736,7 +719,7 @@ body.single-post .content figure {
     .menu {
         background: none;
         height: auto;
-        margin: calc(64px - 8px) 0 0;
+        margin: 40px 0 0;
         overflow-y: visible;
         position: static;
         text-align: center;
@@ -745,10 +728,16 @@ body.single-post .content figure {
     .menu__inner {
         z-index: 0;
     }
+    .menu__inner {
+        
+        padding-bottom: 0;
+    }
     .menu__header,
     .menu__list li a {
         color: var(--main-colour);
+        display: inline-block;
         padding: 0;
+        position: relative;
         text-align: center;
     }
     .menu__header {
@@ -768,12 +757,6 @@ body.single-post .content figure {
     .menu__list li {
         width: auto;
     }
-    /* Todo: do something with this to show the current page;
-    .menu__list li:first-of-type a:before {
-        content: "✪";
-        display: inline-block;
-        margin-right: 8px;
-    }*/
     .menu__list li a {
         font-size: 26px;
         padding: 8px 0;
@@ -794,9 +777,6 @@ body.single-post .content figure {
     .burger {
         display: none;
     }
-    .post-date {
-        float: right;
-    }
     figure img {
         width: 100%;
     }
@@ -805,7 +785,7 @@ body.single-post .content figure {
     }
 }
 
-@media((min-width: 1024px) and (prefers-color-scheme: dark))
+@media((min-width: 1024px) and (min-height: 650px) and (prefers-color-scheme: dark))
 {
     .content,
     .sidebar {
@@ -813,20 +793,17 @@ body.single-post .content figure {
     }
 }
 
-@media(min-width: 1200px) {
+@media((min-width: 1200px) and (min-height: 650px)) {
 
     figure img {
         width: auto;
     }
 }
 
-@media(min-width: 1366px) {
+@media((min-width: 1366px) and (min-height: 650px)) {
 
     body {
         background: var(--main-colour);
-    }
-    h2 {
-        font-size: 30px;
     }
 
     .wrap {
@@ -853,12 +830,6 @@ body.single-post .content figure {
         border-top: none;
         padding-top: 64px;
     }
-    .headline {
-        font-size: 26px;
-    }
-    .headline__sub {
-        font-size: 14px;
-    }
     .icons li a {
         border-bottom: 2px solid transparent;
     }
@@ -868,25 +839,11 @@ body.single-post .content figure {
     .menu__list li a:hover {
         text-decoration: underline;
     }
-
-    .menu {
-        margin-top: calc(92px - 8px);
-    }
-    .menu__list {
-        margin-top: 16px;
-    }
-    .menu__list li.licenses {
-        bottom: 64px;
-    }
     .menu__list li.highlight {
         margin-bottom: 32px;
         margin-top: 32px;
     }
-    .menu__list li a {
-        display: inline-block;
-        font-size: 28px;
-        padding: 8px 0;
-    }
+
     body.category-blog main ul {
         margin-top: 24px;
         padding-left: 0;
@@ -896,23 +853,72 @@ body.single-post .content figure {
     }
 }
 
-@media((min-width: 1366px) and (prefers-color-scheme: dark)) {
+@media((min-width: 1366px) and (min-height: 650px) and (prefers-color-scheme: dark)) {
 
     body {
         background-color: #202324;
     }
 }
 
-@media(min-width: 1920px) {
+@media((min-width: 1920px) and (min-height: 768px)) {
+
+    h2 {
+        font-size: 32px;
+        margin-bottom: 48px;
+    }
+    h3 {
+        font-size: 24px;
+        margin-top: 40px;
+    }
+    h4 {
+        font-size: 20px;
+        margin-top: 48px;
+    }
+    p,
+    ul,
+    ol,
+    pre {
+        font-size: 18px;
+    }
 
     .sidebar {
+        position: sticky;
+        left: 0;
+        top: 0;
+        float: left;
         max-width: 414px;
         width: 414px;
     }
-    .content {
-        margin: 0;
-        max-width: calc(1366px + 414px);
+    .headline {
+        font-size: 26px;
+        margin-top: 24px;
+    }
+    .headline__sub {
+        font-size: 16px;
+        margin-top: 8px;
+    }
+    .menu {
+        margin-top: 56px;
+    }
+    .menu__header {
+        font-size: 24px;
+    }
+    .menu__list li a {
+        font-size: 28px;
+    }
+    .icons li a {
+        padding: 16px;
+    }
+    .icons li a i {
+        font-size: 36px;
+    }
+    .content__parent {
         padding: 64px 64px 64px calc(414px + 64px);
+    }
+    .content {
+        margin: 0 auto;
+        max-width: calc(1366px + 414px);
+        padding: 0;
         position: relative;
     }
     .articles__header h1 a,
@@ -929,6 +935,9 @@ body.single-post .content figure {
     }
     body.category-blog .content__wrap ul li ~ li {
         margin-top: 24px;
+    }
+    body.category-games .tag + .tag {
+        margin-top: 48px;
     }
     figure img {
         width: auto;
