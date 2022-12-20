@@ -75,6 +75,9 @@
     video {
         filter: brightness(0.8);
     }
+    .icons li a i {
+        color: var(--main-colour);
+    }
 }
 
 
@@ -292,7 +295,7 @@ html.menu--toggled .menu::-webkit-scrollbar {
 }
 .menu__list {
     margin: 0;
-    padding: 0 0 64px 0;
+    padding: 0;
 }
 .menu__list li {
     display: block;
@@ -372,44 +375,51 @@ html.menu--toggled .menu::-webkit-scrollbar {
 .sidebar {
     -ms-overflow-style: none;  /* IE and Edge */
     scrollbar-width: none;  /* Firefox */
-    margin: 64px 0 calc(64px - 8px);
+/*    margin: 64px 0 calc(64px - 8px);*/
+    margin: 8px 0 24px;
     overflow-y: scroll;
     overflow-x: hidden;
+    text-align: left;
 }
 .avatar {
-    display: block;
+    display: inline-block;
 }
 .avatar img {
     border-radius: 50%;
+    height: auto;
+    width: 42px;
 }
 .icons {
-    margin: -8px 0 0;
+    margin: 32px 0 0;
     max-width: 100%;
     padding: 0;
+    text-align: right;
 }
 .icons li {
     display: inline-block;
 }
 .icons li a {
     display: inline-block;
-    padding: 8px;
+    padding: 24px;
 }
 .icons li a i {
-    color: var(--main-colour);
+    color: var(--contrast-colour);
     font-size: 32px;
 }
 .headline {
-    display: block;
+    display: inline-block;
     font-family: "Raleway", sans-serif;
     font-size: 24px;
     letter-spacing: 2px;
     line-height: 1;
-    margin: 16px 0;
+    margin: 0 0 0 16px;
+    position: relative;
+    top: -2px;
+    left: -2px;
     text-transform: uppercase;
 }
 .headline a {
     display: inline-block;
-    padding: 8px;
     text-decoration: none;
 }
 .headline__sub {
@@ -417,7 +427,7 @@ html.menu--toggled .menu::-webkit-scrollbar {
     font-family: "Lato", sans-serif;
     font-size: 12px;
     font-weight: 400;
-    margin-top: 8px;
+    margin-top: 4px;
 }
 
 /**
@@ -577,11 +587,13 @@ body.single-post .content figure {
 
     /* Content */
     .avatar picture img {
-        height: auto;
-        width: 128px;
+        /*width: 128px;*/
+    }
+    .sidebar {
+        margin: 16px 0 32px;
     }
     .headline {
-        margin: 24px 0;
+/*        margin: 24px 0;*/
     }
 }
 
@@ -589,7 +601,8 @@ body.single-post .content figure {
 
     /* Menu */
     .menu__header,
-    .menu__list li a {
+    .menu__list li a,
+    .icons {
         text-align: center;
     }
 }
@@ -613,7 +626,8 @@ body.single-post .content figure {
 
     /* Menu */
     .menu__header,
-    .menu__list li a {
+    .menu__list li a,
+    .icons {
         text-align: right;
     }
 
@@ -677,8 +691,40 @@ body.single-post .content figure {
         left: 0;
         top: 0;
         width: 320px;
+        text-align: center;
 
     }
+    .avatar {
+        display: block;
+    }
+    .avatar picture img {
+        width: 128px;
+    }
+    .headline {
+        margin: 24px 0;
+        left: auto;
+        top: auto;
+    }
+    .headline a {
+        padding: 8px;
+    }
+    .headline__sub {
+        margin-top: 8px;
+    }
+    .icons {
+        position: absolute;
+        bottom: 44px;
+        left: 0;
+        text-align: center;
+        width: 100%;
+    }
+    .icons li a {
+        padding: 12px;
+    }
+    .icons li a i {
+        color: var(--main-colour);
+    }
+
     .menu {
         background: none;
         height: auto;
@@ -713,12 +759,6 @@ body.single-post .content figure {
     }
     .menu__list li {
         width: auto;
-    }
-    .menu__list li.licenses {
-        position: absolute;
-        bottom: 56px;
-        left: 0;
-        width: 100%;
     }
     /* Todo: do something with this to show the current page;
     .menu__list li:first-of-type a:before {
@@ -813,8 +853,6 @@ body.single-post .content figure {
     }
     .icons li a {
         border-bottom: 2px solid transparent;
-        margin: 8px;
-        padding: 0 0 4px 0;
     }
     .icons li a:hover {
         border-color: var(--main-colour);
