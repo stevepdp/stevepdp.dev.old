@@ -293,6 +293,7 @@ html.menu--toggled .menu::-webkit-scrollbar {
 }
 .menu__list {
     margin: 0;
+    max-width: none;
     padding: 0;
 }
 .menu__list li {
@@ -386,13 +387,13 @@ html.menu--toggled .menu::-webkit-scrollbar {
     width: 42px;
 }
 .icons {
-    margin: 32px 0 0;
-    max-width: 100%;
+    margin: 0;
+    max-width: 100vw;
     padding: 0;
     text-align: right;
 }
 .icons li {
-    display: inline-block;
+    display: block;
 }
 .icons li a {
     display: inline-block;
@@ -579,9 +580,6 @@ body.single-post .content figure {
         left: 0;
         width: auto;
     }
-    .icons li a {
-        padding: 24px;
-    }
 }
 
 @media(min-width: 375px) {
@@ -617,6 +615,12 @@ body.single-post .content figure {
     .menu__list li a,
     .icons {
         text-align: center;
+    }
+    .icons li {
+        display: inline-block;
+    }
+    .icons li a {
+        padding: 24px 16px;
     }
 
     .preview {
