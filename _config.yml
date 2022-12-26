@@ -1,2 +1,14 @@
 host: 0.0.0.0
 port: 8080
+
+compress_html:
+  clippings: all
+  comments: all
+  endings: all
+  ignore: [
+    pre
+  ]
+  envs: []
+  blanklines: false
+  profile: false
+  startings: []
