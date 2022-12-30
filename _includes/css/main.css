@@ -688,7 +688,7 @@ body.single-post .content figure {
         height: 100vh;
         margin: 0;
         max-width: 320px;
-        padding-top: 56px;
+        padding-top: 64px;
         position: fixed;
         left: 0;
         top: 0;
@@ -839,7 +839,6 @@ body.single-post .content figure {
     }
     .sidebar {
         border-top: none;
-        padding-top: 64px;
     }
     .icons li a {
         border-bottom: 2px solid transparent;
