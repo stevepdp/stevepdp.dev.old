@@ -9,11 +9,11 @@ type: category-games
 ---
 
 <div class="games">
-	{% for game in site.categories.games %}
+{% for game in site.categories.games %}
 	<a href="{{game.url}}" class="games__game active" style="background-image: url({{game.og_image}});">
-		<span class="games__desc">
+		<h3 class="games__desc">
 		{{game.og_title}}
-		</span>
+		</h3>
 	</a>
-	{% endfor %}
+{% endfor %}
 </div>

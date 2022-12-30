@@ -2,7 +2,7 @@
 title: Rad Rocket
 permalink: /games/other-and-experimental/rad-rocket.html
 
-og_title: "Rad Rocket by Stephen Pearce"
+og_title: "Rad Rocket"
 og_description: "Rad Rocket. A game targeting Android phones by Stephen Pearce"
 og_image: "https://stevepdp.dev/assets/img/games/rad-rocket/opengraph.png"
 
