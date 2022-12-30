@@ -201,7 +201,6 @@ ol {
 }
 pre {
     background: rgb(var(--contrast-colour));
-    border: 1px solid rgb(var(--main-colour));
     border-left: 8px solid rgb(var(--main-colour));
     box-shadow: 2px 2px 4px rgba(var(--main-colour), .6);
     font-size: 16px;
