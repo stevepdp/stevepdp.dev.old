@@ -126,15 +126,19 @@ body {
     position: relative;
 }
 figure {
+    box-shadow: 2px 2px 4px rgba(var(--main-colour), .6);
     display: inline-block;
     margin-left: 0;
     margin-right: 0;
 }
+@media(prefers-color-scheme: dark) {
+    figure {
+        box-shadow: 2px 2px 4px rgba(var(--dark-background), .6);
+    }
+}
 figcaption {
     color: rgb(var(--contrast-colour));
     background: rgb(var(--main-colour));
-    border-bottom-left-radius: 16px;
-    border-bottom-right-radius: 16px;
     font-size: small;
     font-style: italic;
     padding: 3px 0 6px;
@@ -199,11 +203,17 @@ pre {
     background: rgb(var(--contrast-colour));
     border: 1px solid rgb(var(--main-colour));
     border-left: 8px solid rgb(var(--main-colour));
+    box-shadow: 2px 2px 4px rgba(var(--main-colour), .6);
     font-size: 16px;
     margin: 16px 16px 24px 0;
     padding: 16px 16px 16px 20px;
     overflow-x: auto;
     white-space: pre-wrap;
+}
+@media(prefers-color-scheme: dark) {
+    pre {
+        box-shadow: 2px 2px 4px rgba(var(--dark-background), .6);
+    }
 }
 p,
 ul,
@@ -471,8 +481,6 @@ html.menu--toggled .menu::-webkit-scrollbar {
     margin-right: 8px;
 }
 figure img {
-    border-top-left-radius: 16px;
-    border-top-right-radius: 16px;
     display: block;
     width: 100%;
 }
@@ -525,7 +533,6 @@ body.category-games main h2 {
         color: rgb(var(--main-colour));
     }
 }
-
 .preview {
     display: block;
     height: auto;
@@ -534,12 +541,18 @@ body.category-games main h2 {
     text-align: right;
 }
 .preview__trailer {
+    box-shadow: 2px 2px 4px rgba(var(--main-colour), .6);
     display: block;
     height: auto;
     width: 100%;
 }
 .preview__buttons {
-    margin-top: 4px;
+    margin-top: 8px;
+}
+@media(prefers-color-scheme: dark) {
+    .preview__trailer {
+        box-shadow: 2px 2px 4px rgba(var(--dark-background), .6);
+    }
 }
 
 /**
@@ -1008,7 +1021,12 @@ body.single-post .content figure {
         text-align: left;
     }
     .games__game {
+        height: 280px;
         margin: 16px;
+        width: 360px;
+    }
+    .games__desc {
+        font-size: 18px;
     }
     figure img {
         width: auto;
