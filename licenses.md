@@ -18,7 +18,7 @@ This website is hosted on Github and as such <a href="https://github.com/stevepd
 
 If you'd like any of these conditions waived, please contact me at: <a href="mailto:hello@stevepdp.dev">hello@stevepdp.dev</a>.
 
-This website is Copyright &copy; 2022 Stephen Pearce.
+This website is Copyright &copy; 2023 Stephen Pearce.
 
 
 ### Licensed Assets
