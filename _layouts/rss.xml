@@ -12,7 +12,7 @@
       {% if post.tags contains page.tag %}
       <item>
         <title>{{ post.title }}</title>
-        <description>{{ post.content | strip_html}}</description>
+        <description>{{ post.content }}</description>
         <category>{{ post.rss_category }}</category>
         <author>Stephen Pearce</author>
         <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
