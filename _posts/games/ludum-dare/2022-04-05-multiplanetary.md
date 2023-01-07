@@ -14,6 +14,8 @@ layout: single-game
 type: single-game
 category: games
 tags: [all, game, ludum-dare]
+
+rss_category: Games
 ---
 
 Made in 72 hours for <a href="https://ldjam.com/events/ludum-dare/50" rel="noopener" target="_blank">Ludum Dare 50</a> with the theme "delay the inevitable".

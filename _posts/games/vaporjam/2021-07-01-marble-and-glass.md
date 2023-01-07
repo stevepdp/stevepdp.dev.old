@@ -14,6 +14,8 @@ layout: single-game
 type: single-game
 category: games
 tags: [all, game, vaporjam]
+
+rss_category: Games
 ---
 
 Made in two weeks for <a href="https://itch.io/jam/vaporjam" rel="noopener" target="_blank">VaporJam</a>.

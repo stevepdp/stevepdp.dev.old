@@ -10,6 +10,8 @@ layout: single-blog
 type: single-blog
 category: blog
 tags: [all, blog]
+
+rss_category: Blog
 ---
 
 Something I've been toying with recently is the Raspberry Pi 400.

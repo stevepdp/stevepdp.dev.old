@@ -14,6 +14,8 @@ layout: single-game
 type: single-game
 category: games
 tags: [all, game, weekly-game-jam]
+
+rss_category: Games
 ---
 
 Made for <a href="https://itch.io/jam/weekly-game-jam-203" rel="noopener" target="_blank">Weekly Game Jam 203</a>.

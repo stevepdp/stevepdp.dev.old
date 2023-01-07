@@ -14,6 +14,8 @@ layout: single-game
 type: single-game
 category: games
 tags: [all, game, one-hour-game-jam]
+
+rss_category: Games
 ---
 
 Made in approximately one hour for <a href="https://onehourgamejam.com/?page=jam&jam=326" rel="noopener" target="_blank">One Hour Game Jam</a> with the theme "Virtual Pet".

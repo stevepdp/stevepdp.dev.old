@@ -12,6 +12,8 @@ layout: single-game
 type: single-game
 category: games
 tags: [all, game, other-and-experimental]
+
+rss_category: Games
 ---
 
 <style>

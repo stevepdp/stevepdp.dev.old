@@ -17,6 +17,8 @@ categories: [games, has-devlog]
 tags: [all, game, car-configurator]
 
 devlog: car-configurator
+
+rss_category: Games
 ---
 
 ### About

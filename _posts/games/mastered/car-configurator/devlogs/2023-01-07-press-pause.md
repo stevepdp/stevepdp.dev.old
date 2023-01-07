@@ -11,6 +11,8 @@ type: single-blog
 
 category: devlogs
 tags: [all, devlog, car-configurator, car-configurator-devlog]
+
+rss_category: Devlogs
 ---
 
 With my focus shifting to the next project for Mastered, this one is now going into maintainance.
