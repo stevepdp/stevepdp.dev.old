@@ -4,7 +4,7 @@
     <title>{{ page.rss_name }}</title>
     <description>{{ page.rss_desc }}</description>
     <link>{{ site.url }}</link>
-    <atom:link href="{{ site.url }}/feed.xml" rel="self" type="application/rss+xml"/>
+    <atom:link href="https://stevepdp.dev{{ page.url }}" rel="self" type="application/rss+xml"/>
     <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
     <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
     <generator>Jekyll</generator>
