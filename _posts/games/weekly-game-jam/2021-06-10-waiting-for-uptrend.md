@@ -1,6 +1,7 @@
 ---
 title: Waiting For Uptrend
 permalink: /games/weekly-game-jam/waiting-for-uptrend.html
+date: 2021-06-10 00:24:36
 
 video: waiting-for-uptrend-clip.mp4
 thumbnail: waiting-for-uptrend/opengraph.png

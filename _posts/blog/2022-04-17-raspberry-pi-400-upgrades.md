@@ -1,6 +1,7 @@
 ---
 title: Upgrading the Raspberry Pi 400
 permalink: /blog/upgrading-the-raspberry-pi-400.html
+date: 2022-04-17 17:31:43
 
 og_title: "Upgrading the Raspberry Pi 400"
 og_description: "Detailing my experience upgrading from standard microSD storage to NVMe via USB3."

@@ -1,6 +1,7 @@
 ---
 title: Drive 2053 - Car Configurator
 permalink: /games/mastered/car-configurator/
+date: 2023-01-01 18:51:59
 
 video: car-configurator.mp4
 thumbnail: car-configurator/opengraph.png

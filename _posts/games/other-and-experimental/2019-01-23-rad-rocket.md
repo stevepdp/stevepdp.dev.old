@@ -1,6 +1,7 @@
 ---
 title: Rad Rocket
 permalink: /games/other-and-experimental/rad-rocket.html
+date: 2019-01-13 11:36:45
 
 thumbnail: rad-rocket/opengraph.png
 

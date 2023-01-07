@@ -1,6 +1,7 @@
 ---
 title: Press Pause
 permalink: /games/mastered/car-configurator/devlog-1.html
+date: 2023-01-07 19:11:01
 
 og_title: "Car Configurator Devlog #1 - Press Pause"
 og_description: "Detailing my progress up to Christmas"
