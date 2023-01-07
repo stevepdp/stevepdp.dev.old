@@ -1,4 +1,7 @@
 ---
 layout: rss
 tag: game
+
+rss_name: "Stephen Pearce: Games"
+rss_desc: "An RSS feed containing only game releases."
 ---

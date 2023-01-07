@@ -1,4 +1,7 @@
 ---
 layout: rss
 tag: car-configurator-devlog
+
+rss_name: "Devlog: Car Configurator"
+rss_desc: "An RSS feed containing only the Car Configurar devlog posts."
 ---
