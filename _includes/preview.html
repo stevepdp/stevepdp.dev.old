@@ -3,5 +3,12 @@
         <source src="/assets/video/{{page.video}}" type="video/mp4">
         Your browser does not appear to support mp4 video.
     </video>
-    <div class="preview__buttons"><a href="https://stevepdp.itch.io/{{page.itch_url}}" rel="noopener" target="_blank" aria-label="button"><img src="/assets/img/brands/itch-io-colour.svg" height="48" width="156" alt="Available on itch.io"><span class="assist">Play this game on Itch.io</span></a></div>
+    <div class="preview__buttons">
+        {% if page.gplay_url %}
+            <a href="https://play.google.com/store/apps/details?id={{page.gplay_url}}" rel="noopener" target="_blank" aria-label="button" class="preview__link"><img src="/assets/img/brands/google-play.svg" height="48" width="163"><span class="assist">Get this game on Google Play</span></a>
+        {% endif %}
+        {% if page.itch_url %}
+            <a href="https://stevepdp.itch.io/{{page.itch_url}}" rel="noopener" target="_blank" aria-label="button" class="preview__link"><img src="/assets/img/brands/itch-io-colour.svg" height="48" width="156" alt="Available on itch.io"><span class="assist">Play this game on Itch.io</span></a>
+        {% endif %}
+    </div>
 </div>
