@@ -15,7 +15,7 @@ tags: [all, devlog, car-configurator, car-configurator-devlog]
 rss_category: Devlogs
 ---
 
-With my focus shifting to the next project for Mastered, this one is now going into maintainance.
+With my focus shifting to the next project for Mastered, this one is now going into maintenance.
 
 There are a few tasks remaining. But I will look to address them in the time between efforts.
 
