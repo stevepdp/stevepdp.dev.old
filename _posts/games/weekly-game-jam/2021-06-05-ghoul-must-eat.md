@@ -3,6 +3,7 @@ title: Ghoul Must Eat
 permalink: /games/weekly-game-jam/ghoul-must-eat.html
 
 video: ghoul-must-eat-clip.mp4
+thumbnail: ghoul-must-eat/opengraph.png
 itch_url: ghoul-must-eat
 
 og_title: "Ghoul Must Eat for Weekly Game Jam"
@@ -12,7 +13,7 @@ og_image: "https://stevepdp.dev/assets/img/games/ghoul-must-eat/opengraph.png"
 layout: single-game
 type: single-game
 category: games
-tag: weekly-game-jam
+tags: [all, game, weekly-game-jam]
 ---
 
 Made for <a href="https://itch.io/jam/weekly-game-jam-203" rel="noopener" target="_blank">Weekly Game Jam 203</a>.

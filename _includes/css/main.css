@@ -599,6 +599,27 @@ body.single-post .content figure {
     margin: 64px auto;
 }
 
+/**
+ * Single: game
+ */
+.rss {
+    padding-left: 8px;
+}
+.devlogs {
+    list-style: none;
+    padding-left: 0;
+}
+.devlogs__log {
+    margin-top: 4px;
+    padding-left: 24px;
+    position: relative;
+}
+.devlogs__icon {
+    position: absolute;
+    top: 6px;
+    left: 0;
+}
+
 @media(prefers-color-scheme: dark) {
     
     .icons li a i {
@@ -1030,6 +1051,9 @@ body.single-post .content figure {
     }
     .games__desc {
         margin: 12px;
+    }
+    .devlogs__link {
+        font-size: 16px;
     }
     figure img {
         width: auto;

@@ -3,6 +3,7 @@ title: Waiting For Uptrend
 permalink: /games/weekly-game-jam/waiting-for-uptrend.html
 
 video: waiting-for-uptrend-clip.mp4
+thumbnail: waiting-for-uptrend/opengraph.png
 itch_url: waiting-for-uptrend
 
 og_title: "Waiting For Uptrend for Weekly Game Jam"
@@ -12,7 +13,7 @@ og_image: "https://stevepdp.dev/assets/img/games/waiting-for-uptrend/opengraph.p
 layout: single-game
 type: single-game
 category: games
-tag: weekly-game-jam
+tags: [all, game, weekly-game-jam]
 ---
 
 Made for <a href="https://itch.io/jam/weekly-game-jam-204" rel="noopener" target="_blank">Weekly Game Jam 204</a>.

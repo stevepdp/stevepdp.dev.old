@@ -3,6 +3,7 @@ title: Multiplanetary
 permalink: /games/ludum-dare/multiplanetary.html
 
 video: multiplanetary-clip.mp4
+thumbnail: multiplanetary/opengraph.png
 itch_url: multiplanetary
 
 og_title: "Multiplanetary for Ludum Dare 50"
@@ -12,7 +13,7 @@ og_image: "https://stevepdp.dev/assets/img/games/multiplanetary/opengraph.png"
 layout: single-game
 type: single-game
 category: games
-tag: ludum-dare
+tags: [all, game, ludum-dare]
 ---
 
 Made in 72 hours for <a href="https://ldjam.com/events/ludum-dare/50" rel="noopener" target="_blank">Ludum Dare 50</a> with the theme "delay the inevitable".

@@ -1,8 +1,9 @@
 ---
-title: Marble & Glass
+title: Marble &amp; Glass
 permalink: /games/vaporjam/marble-and-glass.html
 
 video: marble-and-glass-clip.mp4
+thumbnail: marble-and-glass/opengraph.png
 itch_url: marble-and-glass
 
 og_title: "Marble & Glass for VaporJam"
@@ -12,7 +13,7 @@ og_image: "https://stevepdp.dev/assets/img/games/marble-and-glass/opengraph.png"
 layout: single-game
 type: single-game
 category: games
-tag: vaporjam
+tags: [all, game, vaporjam]
 ---
 
 Made in two weeks for <a href="https://itch.io/jam/vaporjam" rel="noopener" target="_blank">VaporJam</a>.

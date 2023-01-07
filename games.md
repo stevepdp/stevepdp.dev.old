@@ -10,7 +10,7 @@ type: category-games
 
 <div class="games">
 {% for game in site.categories.games %}
-	<a href="{{game.url}}" class="games__game active" style="background-image: url({{game.og_image}});">
+	<a href="{{game.url}}" class="games__game active" style="background-image: url(/assets/img/games/{{game.thumbnail}});">
 		<h3 class="games__desc">
 		{{game.og_title}}
 		</h3>

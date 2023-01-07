@@ -9,6 +9,7 @@ og_image: ""
 layout: single-blog
 type: single-blog
 category: blog
+tags: [all, blog]
 ---
 
 Something I've been toying with recently is the Raspberry Pi 400.

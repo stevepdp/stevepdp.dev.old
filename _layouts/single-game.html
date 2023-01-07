@@ -21,9 +21,12 @@ layout: compress
                             </header>
                             {% include preview.html %}
                             {{content}}
+                            {% include devlog-posts.html %}
                             <footer class="footer">
                                 {% include cta.html %}
-                                {% include post-date.html %}
+                                {% unless page.type contains "single-game" %}
+                                    {% include post-date.html %}
+                                {% endunless %}
                             </footer>
                         </article>
                     </main>

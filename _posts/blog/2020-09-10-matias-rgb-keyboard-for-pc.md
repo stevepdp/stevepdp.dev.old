@@ -9,6 +9,7 @@ og_image: "https://stevepdp.dev/assets/img/blog/matias-rgb-keyboard-for-pc-unbox
 layout: single-blog
 type: single-blog
 category: blog
+tags: [all, blog]
 ---
 
 For some time now I've been on the lookout for a PC keyboard that closely matches my experience with the Apple Wired Keyboard (A1243). Due to it's low profile, optimal key travel and superb scissor switches, the Apple keyboard practically eliminated the RSI I had been experiencing with cheap keyboards prior and as such I acquired several more over the years as backups.

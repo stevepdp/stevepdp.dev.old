@@ -1,0 +1,21 @@
+{% for category in page.categories %}
+	{% if category contains "has-devlog" %}
+		{% assign devlog_name = page.devlog %}
+			<h3>
+				Devlogs
+				<a href="/{{ devlog_name }}-devlog.rss" class="rss">
+					<i class="fa fa-rss" aria-hidden="true"></i>
+					<span class="assist">RSS</span>
+				</a>
+			</h3>
+			<ul class="devlogs">
+				{% for log in site.categories.devlogs %}
+					{% if page.tags contains devlog_name %}
+						{% assign d = log.date | date: "%-d"  %}
+						<li class="devlogs__log"><i class="devlogs__icon fa fa-pencil" aria-hidden="true"></i><a href="{{log.url}}" class="devlogs__link">
+						{{ log.date | date: "%Y/%m/%d" }} - {{log.title}}</a></li>
+					{% endif %}
+				{% endfor %}
+			</ul>
+	{% endif %}
+{% endfor %}
