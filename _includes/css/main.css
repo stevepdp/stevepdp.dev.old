@@ -487,8 +487,11 @@ figure img {
 /**
  * Category: games
  */
-body.category-games main h2 {
+body[class^="category-"] main h2 {
     display: inline;
+}
+body[class^="category-"] main h2 i {
+    margin-left: 12px;
 }
 .games {
     margin-top: 16px;
@@ -571,9 +574,6 @@ body.category-games main h2 {
 /**
  * Category: blog
  */
-body.category-blog main h2 {
-    display: inline;
-}
 body.category-blog h3 {
     font-size: 16px;
 }
