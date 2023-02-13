@@ -22,8 +22,6 @@ devlog: car-configurator
 rss_category: Games
 ---
 
-### About
-
 This one is less a complete game and more a slice of a potential game.
 
 It's a car configurator in a post-apocalyptic setting.
