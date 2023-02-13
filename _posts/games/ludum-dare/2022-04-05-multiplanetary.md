@@ -7,8 +7,8 @@ video: multiplanetary-clip.mp4
 thumbnail: multiplanetary/opengraph.png
 itch_url: multiplanetary
 
-og_title: "Multiplanetary for Ludum Dare 50"
-og_description: "Multiplanetary. A game jam entry for Ludum Dare 50"
+og_title: "Multiplanetary"
+og_description: "A game jam entry for Ludum Dare 50"
 og_image: "https://stevepdp.dev/assets/img/games/multiplanetary/opengraph.png"
 
 layout: single-game

@@ -7,8 +7,8 @@ video: marble-and-glass-clip.mp4
 thumbnail: marble-and-glass/opengraph.png
 itch_url: marble-and-glass
 
-og_title: "Marble & Glass for VaporJam"
-og_description: "Marble & Glass. A game jam entry for VaporJam"
+og_title: "Marble & Glass"
+og_description: "A game jam entry for VaporJam"
 og_image: "https://stevepdp.dev/assets/img/games/marble-and-glass/opengraph.png"
 
 layout: single-game

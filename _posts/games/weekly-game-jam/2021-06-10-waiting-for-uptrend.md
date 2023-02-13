@@ -7,8 +7,8 @@ video: waiting-for-uptrend-clip.mp4
 thumbnail: waiting-for-uptrend/opengraph.png
 itch_url: waiting-for-uptrend
 
-og_title: "Waiting For Uptrend for Weekly Game Jam"
-og_description: "Waiting for Uptrend. A game jam entry for Weekly Game Jam."
+og_title: "Waiting For Uptrend"
+og_description: "A game jam entry for Weekly Game Jam."
 og_image: "https://stevepdp.dev/assets/img/games/waiting-for-uptrend/opengraph.png"
 
 layout: single-game

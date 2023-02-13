@@ -7,8 +7,8 @@ video: ghoul-must-eat-clip.mp4
 thumbnail: ghoul-must-eat/opengraph.png
 itch_url: ghoul-must-eat
 
-og_title: "Ghoul Must Eat for Weekly Game Jam"
-og_description: "Ghoul Must Eat. A game jam entry for Weekly Game Jam."
+og_title: "Ghoul Must Eat"
+og_description: "A game jam entry for Weekly Game Jam."
 og_image: "https://stevepdp.dev/assets/img/games/ghoul-must-eat/opengraph.png"
 
 layout: single-game

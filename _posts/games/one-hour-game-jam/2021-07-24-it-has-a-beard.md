@@ -7,8 +7,8 @@ video: it-has-a-beard-clip.mp4
 thumbnail: it-has-a-beard/opengraph.png
 itch_url: it-has-a-beard
 
-og_title: "It Has A Beard for One Hour Game Jam"
-og_description: "It Has A Beard. A game jam entry for One Hour Game Jam"
+og_title: "It Has A Beard"
+og_description: "A game jam entry for One Hour Game Jam"
 og_image: "https://stevepdp.dev/assets/img/games/it-has-a-beard/opengraph.png"
 
 layout: single-game

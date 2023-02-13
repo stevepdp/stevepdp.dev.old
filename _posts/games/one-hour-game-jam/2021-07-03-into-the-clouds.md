@@ -7,8 +7,8 @@ video: into-the-clouds-clip.mp4
 thumbnail: into-the-clouds/opengraph.png
 itch_url: into-the-clouds
 
-og_title: "Into The Clouds for One Hour Game Jam"
-og_description: "Into The Clouds. A game jam entry for One Hour Game Jam."
+og_title: "Into The Clouds"
+og_description: "A game jam entry for One Hour Game Jam."
 og_image: "https://stevepdp.dev/assets/img/games/into-the-clouds/opengraph.png"
 
 layout: single-game

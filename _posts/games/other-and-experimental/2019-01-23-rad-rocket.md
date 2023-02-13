@@ -9,7 +9,7 @@ gplay_url: co.uk.stephenpearce.radrocket
 itch_url: rad-rocket
 
 og_title: "Rad Rocket"
-og_description: "Rad Rocket. A game targeting Android phones by Stephen Pearce"
+og_description: "A game targeting Android phones by Stephen Pearce"
 og_image: "https://stevepdp.dev/assets/img/games/rad-rocket/opengraph.png"
 
 layout: single-game
