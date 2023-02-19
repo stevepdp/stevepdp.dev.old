@@ -24,4 +24,4 @@ I was advised to think about the first moments of the game. Where in the prior b
 
 A key feature of this build is the implementation of unique challenges across each of the post-tutorial levels. The challenges vary from defeating an amount of enemies to survival within a timer. Enemies spawn at random positions, so no challenge is the same. Some challenges also remove an ability from the player to make things more interesting.
 
-The <a href="https://stevepdp.itch.io/re-dream" rel="noopener" target="_blank">v0.2 build of Re:Dream</a> is now available on Itch along with a <a href="https://forms.gle/Qy5KRdanYtnbK6Nr8" rel="noopener" target="_blank">new tutorial-focused questionaire</a>.
+The <a href="https://stevepdp.itch.io/re-dream" rel="noopener" target="_blank">v0.2 build of Re:Dream</a> is now available on Itch along with a <a href="https://forms.gle/fkhUT2BUBww5GF2h6" rel="noopener" target="_blank">new tutorial-focused questionaire</a>.
