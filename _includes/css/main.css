@@ -680,10 +680,13 @@ body.single-post .content figure {
     .games {
         text-align: center;
     }
+    .games--highlights {
+        text-align: left;
+    }
     .games__game {
         display: inline-block;
-        height: 240px;
-        width: 320px;
+        height: 230px;
+        width: 310px;
     }
 }
 
@@ -914,11 +917,9 @@ body.single-post .content figure {
 
     .content {
         border-top: none;
-        max-width: 768px;
         padding: 64px 48px;
     }
     .content__wrap {
-        max-width: 1024px;
     }
     .articles__header h1 a:hover,
     .articles__feed:hover,
@@ -953,6 +954,9 @@ body.single-post .content figure {
         margin-left: 48px;
         text-align: left;
     }
+    .games--highlights {
+        margin-left: 0;
+    }
     .games__game {
         margin: 4px;
     }
@@ -968,7 +972,7 @@ body.single-post .content figure {
     }
 }
 
-@media((min-width: 1920px) and (min-height: 768px)) {
+@media((min-width: 1800px) and (min-height: 768px)) {
 
     h2 {
         font-size: 32px;
