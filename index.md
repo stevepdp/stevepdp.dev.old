@@ -23,11 +23,14 @@ Hi! I'm a gameplay programmer on Unity. My focus is on big-screen 2D and 3D expe
 
 
 ### Highlights
-<div class="games games--highlights">
-	<a href="/games/mastered/re-dream.html" class="games__game active" style="background-image: url(/assets/img/games/re-dream/opengraph.png);"><h3 class="games__desc">Re:Dream</h3></a>
-	<a href="/games/mastered/car-configurator/" class="games__game active" style="background-image: url(/assets/img/games/car-configurator/opengraph.png);"><h3 class="games__desc"> Drive 2053 - Car Configurator</h3></a>
+<div class="game-grid">
+	<a href="/games/mastered/re-dream.html" class="game" style="background-image: url(/assets/img/games/re-dream/opengraph.png)">
+		<h3 class="game__desc">Re:Dream</h3>
+	</a>
+	<a href="/games/mastered/re-dream.html" class="game" style="background-image: url(/assets/img/games/car-configurator/opengraph.png)">
+		<h3 class="game__desc">Drive 2053: Car Configurator</h3>
+	</a>
 </div>
-
 See <a href="/games.html">games</a> for more gamedev highlights.
 
 ### Steve Elsewhere

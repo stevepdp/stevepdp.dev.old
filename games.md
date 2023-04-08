@@ -8,12 +8,48 @@ layout: category-games
 type: category-games
 ---
 
-<div class="games">
-{% for game in site.categories.games %}
-	<a href="{{game.url}}" class="games__game active" style="background-image: url(/assets/img/games/{{game.thumbnail}});">
-		<h3 class="games__desc">
-		{{game.og_title}}
-		</h3>
+<h3>With Mastered</h3>
+<div class="game-grid">
+	<a href="/games/mastered/re-dream/" class="game" style="background-image: url(/assets/img/games/re-dream/opengraph.png)">
+		<h3 class="game__desc">Re:Dream</h3>
 	</a>
-{% endfor %}
+	<a href="/games/mastered/car-configurator/" class="game" style="background-image: url(/assets/img/games/car-configurator/opengraph.png)">
+		<h3 class="game__desc">Drive 2053: Car Configurator</h3>
+	</a>
 </div>
+
+<h3>Game Jams</h3>
+<div class="game-grid">
+	<a href="/games/ludum-dare/multiplanetary/" class="game" style="background-image: url(/assets/img/games/multiplanetary/opengraph.png)">
+		<h3 class="game__desc">Multiplanetary</h3>
+	</a>
+	<a href="/games/weekly-game-jam/marble-and-glass/" class="game" style="background-image: url(/assets/img/games/marble-and-glass/opengraph.png)">
+		<h3 class="game__desc">Marble &amp; Glass</h3>
+	</a>
+	<a href="/games/weekly-game-jam/phn1504.12/" class="game" style="background-image: url(/assets/img/games/phn1504.12/opengraph.png)">
+		<h3 class="game__desc">PHN1504.12</h3>
+	</a>
+	<a href="/games/weekly-game-jam/charged/" class="game" style="background-image: url(/assets/img/games/charged/opengraph.png)">
+		<h3 class="game__desc">Charged</h3>
+	</a>
+	<a href="/games/weekly-game-jam/waiting-for-uptrend/" class="game" style="background-image: url(/assets/img/games/waiting-for-uptrend/opengraph.png)">
+		<h3 class="game__desc">Waiting For Uptrend</h3>
+	</a>
+	<a href="/games/ludum-dare/ghoul-must-eat/" class="game" style="background-image: url(/assets/img/games/ghoul-must-eat/opengraph.png)">
+		<h3 class="game__desc">Ghoul Must Eat</h3>
+	</a>
+	<a href="/games/one-hour-game-jam/it-has-a-beard/" class="game" style="background-image: url(/assets/img/games/it-has-a-beard/opengraph.png)">
+		<h3 class="game__desc">It Has A Beard</h3>
+	</a>
+	<a href="/games/one-hour-game-jam/into-the-clouds/" class="game" style="background-image: url(/assets/img/games/into-the-clouds/opengraph.png)">
+		<h3 class="game__desc">Into The Clouds</h3>
+	</a>
+</div>
+
+<h3>Mobile</h3>
+<div class="game-grid">
+	<a href="/games/one-hour-game-jam/it-has-a-beard/" class="game" style="background-image: url(/assets/img/games/rad-rocket/opengraph.png)">
+		<h3 class="game__desc">Rad Rocket</h3>
+	</a>
+</div>
+

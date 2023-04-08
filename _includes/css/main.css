@@ -493,29 +493,38 @@ body[class^="category-"] main h2 {
 body[class^="category-"] main h2 i {
     margin-left: 12px;
 }
-.games {
+
+.game-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
     margin-top: 16px;
 }
-.games__game {
-    background-color: rgb(var(--main-colour));
-    background-size: cover;
-    background-position: center;
-    box-shadow: 2px 2px 4px rgba(var(--main-colour), .6);
-    display: block;
-    height: 224px;
-    margin: 4px;
+.game {
+    background: rgb(var(--contrast-colour)) center/cover no-repeat;
+    margin-bottom: 16px;
     position: relative;
-    width: auto;
+    width: 100%;
 }
-.games__game:hover .games__desc {
+@media(prefers-color-scheme: dark) {
+    .game {
+        background-color: rgb(var(--dark-background));
+    }
+}
+.game:hover .game__desc {
     text-decoration: underline;
 }
-.games__game:after {
+.game::before {
     content: "";
-    display: table;
-    clear: both;
+    display: block;
+    padding-top: 100%; /* Set a 1:1 aspect ratio */
 }
-.games__desc {
+.game > * {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.game__desc {
     background-color: rgba(var(--main-colour), .8);
     box-shadow: 1px 1px 2px rgba(var(--main-colour), .6);
     color: rgb(var(--contrast-colour));;
@@ -530,10 +539,7 @@ body[class^="category-"] main h2 i {
     text-transform: none;
 }
 @media(prefers-color-scheme: dark) {
-    .games__game {
-        box-shadow: 2px 2px 4px rgba(var(--dark-background), .6);
-    }
-    .games__desc {
+    .game__desc {
         background-color: rgba(var(--dark-background), .8);
         box-shadow: 1px 1px 2px rgba(var(--dark-background), .6);
         color: rgb(var(--main-colour));
@@ -631,7 +637,6 @@ body.single-post .content figure {
 }
 
 @media(prefers-color-scheme: dark) {
-    
     .icons li a i {
         color: rgb(var(--main-colour));
     }
@@ -677,17 +682,6 @@ body.single-post .content figure {
     .sidebar {
         margin: 24px 0;
     }
-    .games {
-        text-align: center;
-    }
-    .games--highlights {
-        text-align: left;
-    }
-    .games__game {
-        display: inline-block;
-        height: 230px;
-        width: 310px;
-    }
 }
 
 @media(min-width: 640px) {
@@ -703,6 +697,14 @@ body.single-post .content figure {
     }
     .icons li a {
         padding: 24px 16px;
+    }
+
+    /* Game grid */
+    .game {
+        width: calc(50% - 8px);
+    }
+    .game:nth-child(2n) {
+        margin-right: 0;
     }
 
     /* Game */
@@ -766,12 +768,6 @@ body.single-post .content figure {
         margin-left: 320px;
         overflow-y: scroll;
         padding: 64px 48px;
-    }
-    body.category-games .content {
-        padding: 64px 0;
-    }
-    body.category-games main h2 {
-        margin-left: 48px;
     }
     .sidebar {
         background: rgb(var(--contrast-colour));
@@ -882,8 +878,24 @@ body.single-post .content figure {
     figure img {
         width: 100%;
     }
-    .games {
-        margin-top: 24px;
+    .game {
+        width: calc((33.33% - 16px));
+    }
+
+    .game-grid {
+        justify-content: flex-start;
+    }
+
+    .game:nth-child(3n+1) {
+        margin-right: 16px;
+    }
+
+    .game:nth-child(3n+2) {
+        margin-right: 16px;
+    }
+
+    .game:last-child:nth-child(3n+3) {
+        margin-right: 0;
     }
     .preview {
         margin: 0;
@@ -949,16 +961,6 @@ body.single-post .content figure {
     body.category-blog main ul {
         margin-top: 24px;
         padding-left: 0;
-    }
-    .games {
-        margin-left: 48px;
-        text-align: left;
-    }
-    .games--highlights {
-        margin-left: 0;
-    }
-    .games__game {
-        margin: 4px;
     }
     figure img {
         width: 100%;
@@ -1057,16 +1059,20 @@ body.single-post .content figure {
     body.category-games .content__wrap {
         max-width: none;
     }
-    .games {
-        margin: 32px 0 0 -16px;
-        text-align: left;
+    .game-grid {
+        margin-bottom: 32px;
+        margin-top: 32px;
     }
-    .games__game {
-        height: 280px;
-        margin: 16px;
-        width: 360px;
+    .game {
+        width: calc((33.33% - 32px));
     }
-    .games__desc {
+    .game:nth-child(3n+1) {
+        margin-right: 32px;
+    }
+    .game:nth-child(3n+2) {
+        margin-right: 32px;
+    }
+    .game__desc {
         margin: 12px;
     }
     .devlogs__link {
