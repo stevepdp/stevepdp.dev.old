@@ -3,7 +3,7 @@ title: Home
 
 og_title: "Stephen Pearce's Homepage"
 og_description: "Stephen Pearce's homepage. Featuring games, retrospectives and blogs."
-og_image: "https://stevepdp.dev/assets/img/games/marble-and-glass/opengraph.png"
+og_image: "https://stevepdp.dev/assets/img/games/re-dream/opengraph.png"
 
 layout: single
 type: single
