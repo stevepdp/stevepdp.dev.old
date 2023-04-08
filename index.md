@@ -28,4 +28,12 @@ Hi! I'm a gameplay programmer on Unity. My focus is on big-screen 2D and 3D expe
 	<a href="/games/mastered/car-configurator/" class="games__game active" style="background-image: url(/assets/img/games/car-configurator/opengraph.png);"><h3 class="games__desc"> Drive 2053 - Car Configurator</h3></a>
 </div>
 
-See <a href="/games.html">games</a> for more of my creative work.
+See <a href="/games.html">games</a> for more gamedev highlights.
+
+### Steve Elsewhere
+
+* <a href="https://www.github.com/stevepdp" rel="me nofollow noopener" target="_blank">GitHub</a> - sharing the source of all my experimental works.
+* <a href="https://www.hackerrank.com/stevepdp" rel="me nofollow noopener" target="_blank">HackerRank</a> - making a habit of regular C# problem solving outside of a Unity context.
+* <a href="https://stevepdp.itch.io/" rel="me nofollow noopener" target="_blank">Itch.io</a> - pretty much all of my indie and game jam work is shared here.
+* <a href="https://learn.unity.com/u/stevepdp" rel="me nofollow noopener" target="_blank">Unity Learn</a> - making progress on Unity's official learning pathways.
+* <a href="https://play.unity.com/u/stevepdp" rel="me nofollow noopener" target="_blank">Unity Play</a> - the output of my Unity Learn learnings can be found here.
