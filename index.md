@@ -27,7 +27,7 @@ Hi! I'm a gameplay programmer on Unity. My focus is on big-screen 2D and 3D expe
 	<a href="/games/mastered/re-dream.html" class="game" style="background-image: url(/assets/img/games/re-dream/opengraph.png)">
 		<h3 class="game__desc">Re:Dream</h3>
 	</a>
-	<a href="/games/mastered/re-dream.html" class="game" style="background-image: url(/assets/img/games/car-configurator/opengraph.png)">
+	<a href="/games/mastered/car-configurator.html" class="game" style="background-image: url(/assets/img/games/car-configurator/opengraph.png)">
 		<h3 class="game__desc">Drive 2053: Car Configurator</h3>
 	</a>
 </div>
