@@ -26,10 +26,10 @@ I'm a gameplay programmer with experience in Unity & C#, creating immersive 2D a
 
 ### Highlights
 <div class="game-grid">
-	<a href="/games/mastered/re-dream.html" class="game" style="background-image: url(/assets/img/games/re-dream/opengraph.png)">
+	<a href="/games/mastered/re-dream.html" class="game" style="background-image: url(/assets/img/games/re-dream/screenshot-squarecropnohud.png)">
 		<h3 class="game__desc">Re:Dream</h3>
 	</a>
-	<a href="/games/mastered/car-configurator.html" class="game" style="background-image: url(/assets/img/games/car-configurator/opengraph.png)">
+	<a href="/games/mastered/car-configurator.html" class="game" style="background-image: url(/assets/img/games/car-configurator/screenshot-squarecropnohud.png)">
 		<h3 class="game__desc">Drive 2053: Car Configurator</h3>
 	</a>
 </div>
