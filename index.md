@@ -10,7 +10,9 @@ type: single
 ---
 
 ### About
-Hi! I'm a gameplay programmer on Unity. My focus is on big-screen 2D and 3D experiences that delight players! I'm currently participating in a bootcamp: "Real-Time 3D Skills Bootcamp - Gameplay Programmer (Unity)" with Mastered. With the first phase now wrapping up, I am seeking a remote-working, full-time position in the industry.
+Greetings!
+
+I'm a gameplay programmer with experience in Unity & C#, creating immersive 2D and 3D experiences for various platforms. Currently, I'm enrolled in a bootcamp with Mastered. As the first phase comes to a close, I'm now seeking a remote, full-time position in the industry.
 
 
 ### Contact
