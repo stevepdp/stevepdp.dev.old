@@ -35,20 +35,20 @@ type: category-games
 	<a href="/games/weekly-game-jam/waiting-for-uptrend.html" class="game" style="background-image: url(/assets/img/games/waiting-for-uptrend/opengraph.png)">
 		<h3 class="game__desc">Waiting For Uptrend</h3>
 	</a>
-	<a href="/games/weekly-game-jam/ghoul-must-eat.html" class="game" style="background-image: url(/assets/img/games/ghoul-must-eat/opengraph.png)">
+	<a href="/games/weekly-game-jam/ghoul-must-eat.html" class="game" style="background-image: url(/assets/img/games/ghoul-must-eat/screenshot-squarecropnohud.png)">
 		<h3 class="game__desc">Ghoul Must Eat</h3>
 	</a>
-	<a href="/games/one-hour-game-jam/it-has-a-beard.html" class="game" style="background-image: url(/assets/img/games/it-has-a-beard/opengraph.png)">
+	<a href="/games/one-hour-game-jam/it-has-a-beard.html" class="game" style="background-image: url(/assets/img/games/it-has-a-beard/screenshot-squarecropnohud.png)">
 		<h3 class="game__desc">It Has A Beard</h3>
 	</a>
-	<a href="/games/one-hour-game-jam/into-the-clouds.html" class="game" style="background-image: url(/assets/img/games/into-the-clouds/opengraph.png)">
+	<a href="/games/one-hour-game-jam/into-the-clouds.html" class="game" style="background-image: url(/assets/img/games/into-the-clouds/screenshot-squarecropnohud.png)">
 		<h3 class="game__desc">Into The Clouds</h3>
 	</a>
 </div>
 
 <h3>Mobile</h3>
 <div class="game-grid">
-	<a href="/games/other-and-experimental/rad-rocket.html" class="game" style="background-image: url(/assets/img/games/rad-rocket/opengraph.png)">
+	<a href="/games/other-and-experimental/rad-rocket.html" class="game" style="background-image: url(/assets/img/games/rad-rocket/screenshot-squarecropnohud.png)">
 		<h3 class="game__desc">Rad Rocket</h3>
 	</a>
 </div>
