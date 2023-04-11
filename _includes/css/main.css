@@ -502,6 +502,7 @@ body[class^="category-"] main h2 i {
 }
 .game {
     background: rgb(var(--contrast-colour)) center/cover no-repeat;
+    box-shadow: 2px 2px 4px rgba(var(--main-colour), .6);
     margin-bottom: 16px;
     position: relative;
     width: 100%;
@@ -509,6 +510,7 @@ body[class^="category-"] main h2 i {
 @media(prefers-color-scheme: dark) {
     .game {
         background-color: rgb(var(--dark-background));
+        box-shadow: 2px 2px 4px rgba(var(--dark-background), .6);
     }
 }
 .game:hover .game__desc {
