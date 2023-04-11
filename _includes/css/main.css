@@ -399,8 +399,8 @@ html.menu--toggled .menu::-webkit-scrollbar {
     padding: 0;
     text-align: right;
 }
-.icons li {
-    display: block;
+.icons li:first-of-type {
+    display: none;
 }
 .icons li a {
     display: inline-block;
@@ -808,6 +808,9 @@ body.single-post .content figure {
         left: 0;
         text-align: center;
         width: 100%;
+    }
+    .icons li:first-of-type {
+        display: inline-block;
     }
     .icons li a {
         padding: 12px;
