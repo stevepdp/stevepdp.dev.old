@@ -1,5 +1,6 @@
 ---
 title: Home
+canonical_url: https://stevepdp.dev
 
 og_title: "Stephen Pearce's Homepage"
 og_description: "Stephen Pearce's homepage. Featuring games, retrospectives and blogs."

@@ -1,6 +1,7 @@
 ---
 title: Privacy Policy for Rad Rocket
 permalink: privacy-rad-rocket
+canonical_url: https://stevepdp.dev/privacy-rad-rocket.html
 
 og_title: "Privacy Policy for Rad Rocket"
 og_image: 

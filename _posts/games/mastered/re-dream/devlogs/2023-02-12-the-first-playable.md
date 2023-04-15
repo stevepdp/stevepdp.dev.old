@@ -1,6 +1,7 @@
 ---
 title: First Playable
 permalink: /games/mastered/re-dream/devlog-1.html
+canonical_url: https://stevepdp.dev/games/mastered/re-dream/devlog-1.html
 date: 2023-02-12 23:16:00
 
 og_title: "Re:Dream Devlog #1 - First Playable"

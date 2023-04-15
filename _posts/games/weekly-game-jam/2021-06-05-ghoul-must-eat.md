@@ -1,6 +1,7 @@
 ---
 title: Ghoul Must Eat
 permalink: /games/weekly-game-jam/ghoul-must-eat.html
+canonical_url: https://stevepdp.dev/games/weekly-game-jam/ghoul-must-eat.html
 date: 2021-06-05 15:52:54
 
 video: ghoul-must-eat-clip.mp4

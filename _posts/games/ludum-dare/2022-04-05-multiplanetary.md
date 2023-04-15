@@ -1,6 +1,7 @@
 ---
 title: Multiplanetary
 permalink: /games/ludum-dare/multiplanetary.html
+canonical_url: https://stevepdp.dev/games/ludum-dare/multiplanetary.html
 date: 2022-04-05 06:30:49
 
 video: multiplanetary-clip.mp4

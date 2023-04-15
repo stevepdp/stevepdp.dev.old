@@ -1,5 +1,6 @@
 ---
 title: Blog
+canonical_url: https://stevepdp.dev/blog.html
 
 og_title: "Stephen Pearce's Blog"
 og_description: "Stephen Pearce's blog. Musings on tech. Software, hardware and tales of development."

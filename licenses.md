@@ -1,5 +1,6 @@
 ---
 title: Licenses
+canonical_url: https://stevepdp.dev/licenses.html
 
 og_title: "License information"
 og_description: "Licenses for Stephen Pearce's homepage."

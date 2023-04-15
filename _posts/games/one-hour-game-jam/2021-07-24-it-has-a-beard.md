@@ -1,6 +1,7 @@
 ---
 title: It Has A Beard
 permalink: /games/one-hour-game-jam/it-has-a-beard.html
+canonical_url: https://stevepdp.dev/games/one-hour-game-jam/it-has-a-beard.html
 date: 2021-07-24 14:01:04
 
 video: it-has-a-beard-clip.mp4

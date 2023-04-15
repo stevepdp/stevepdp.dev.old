@@ -1,6 +1,7 @@
 ---
 title: First Feedback and Iteration
 permalink: /games/mastered/re-dream/devlog-2.html
+canonical_url: https://stevepdp.dev/games/mastered/re-dream/devlog-2.html
 date: 2023-02-17 16:30:00
 
 og_title: "Re:Dream Devlog #2 - First Feedback and Iteration"

@@ -1,6 +1,7 @@
 ---
 title: Marble &amp; Glass
 permalink: /games/vaporjam/marble-and-glass.html
+canonical_url: https://stevepdp.dev/games/games/vaporjam/marble-and-glass.html
 date: 2021-07-01 22:14:10
 
 video: marble-and-glass-clip.mp4

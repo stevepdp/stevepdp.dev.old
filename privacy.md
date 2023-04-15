@@ -1,6 +1,7 @@
 ---
 title: Privacy Policy
 permalink: privacy
+canonical_url: https://stevepdp.dev/privacy.html
 
 og_title: "Privacy Policy"
 og_image: 

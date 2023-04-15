@@ -1,5 +1,6 @@
 ---
 title: Games
+canonical_url: https://stevepdp.dev/games.html
 
 og_title: "Games by Stephen Pearce"
 og_description: "Stephen Pearce's blog. Musings on tech. Software, hardware and tales of development."
