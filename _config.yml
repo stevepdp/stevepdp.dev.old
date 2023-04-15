@@ -1,5 +1,6 @@
 host: 0.0.0.0
 port: 8080
+url: https://stevepdp.dev
 
 title: Stephen Pearce
 description: Stephen Pearce's homepage. Featuring games, retrospectives and a blog.
