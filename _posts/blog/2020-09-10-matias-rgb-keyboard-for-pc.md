@@ -24,7 +24,7 @@ The first solution I arrived at involved using one of the spares with stickers t
     <figcaption>A cheap fix if you're not looking to spend significant money.</figcaption>
 </figure>
 
-Enter the <a href="https://matias.ca/aluminum/pc-rgb/" rel="nofollow noreferrer" target="_blank">Matias RGB Backlit Wired Aluminium Keyboard for PC</a>.
+Enter the <a href="https://matias.ca/aluminum/pc-rgb/" rel="nofollow noopener noreferrer" target="_blank">Matias RGB Backlit Wired Aluminium Keyboard for PC</a>.
 
 Here's a keyboard which reviewers state is similar in look and feel to the Apple Wired Keyboard. They're right. It's actually quite remarkable! One could argue that it's an evolved take on the Apple favourite. First impressions overall are very good!
 

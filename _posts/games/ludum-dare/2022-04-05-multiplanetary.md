@@ -20,12 +20,17 @@ tags: [all, game, ludum-dare]
 rss_category: Games
 ---
 
-Made in 72 hours for <a href="https://ldjam.com/events/ludum-dare/50" rel="noopener" target="_blank">Ludum Dare 50</a> with the theme "delay the inevitable".
+| Made with	| C# &amp; Unity<br>Aseprite, GIMP<br>Audacity, Bfxr<br>Permissively-licensed assets |
+| Timeline | 72 hours |
+| Playable | <a href="https://stevepdp.itch.io/multiplanetary" rel="me noopener noreferrer" target="_blank" title="Play the game on Itch.io">Itch.io</a> |
+| Source | <a href="https://github.com/stevepdp/ld50-delay-the-inevitable" rel="me nofollow noopener noreferrer" target="_blank" title="View the source code on GitHub">stevepdp/ld50-delay-the-inevitable</a> |
+
 
 ### Retrospective
+Made for <a href="https://ldjam.com/events/ludum-dare/50" rel="noopener noreferrer" target="_blank">Ludum Dare 50</a> with the theme "delay the inevitable".
+
 
 #### The Idea
-
 Unlike other jams I&apos;ve participated in, LD&apos;s community voting rounds meant that I had an idea for what the theme might be ahead of time. I was able to generate a bunch of ideas on many sheets of A4 the night prior. The first of those ideas is what I took forward into the jam.
 
 With the theme "delay the inevitable", I settled on the idea that humanity will inevitably become a multiplanetary species and that you would be in control of an alien device trying to prevent it. Shuttles would spawn at random intervals from Earth and head in the direction of neighbouring planets. The player would be facing Earth and only able to move within a certain range of it&apos;s orbit.
@@ -42,7 +47,6 @@ I had a few things to learn in order to make my idea work. These aspects at leas
 
 
 #### What Went Wrong
-
 * I wasted the better part of two days on project plumbing and menu code. You don&apos;t need either in a game jam.
 * I don&apos;t like to blame the tools...but the tools crashed a lot on me this weekend. Ordinarily this wouldn&apos;t bother me, but when you&apos;re strapped for time then it really adds to the pressure.
 * I should&apos;ve playtested. It became clear after submitting that the game is much too difficult and it&apos;s suffering in the feedback as a result.
@@ -51,7 +55,6 @@ I had a few things to learn in order to make my idea work. These aspects at leas
 
 
 #### What I Learned
-
 It&apos;s been nine months since I last attempted a game jam so I&apos;ve definitely had to remind myself of the standard practices.
 
-I happened upon <a href="https://www.youtube.com/watch?v=lPyYZjCQ0Is" rel="noopener" target="_blank">the 4:44 rule</a> whilst testing other&apos;s submissions, and I think I'll apply it when the next game jam opportunity rolls around.
+I happened upon <a href="https://www.youtube.com/watch?v=lPyYZjCQ0Is" rel="nofollow noopener noreferrer" target="_blank">the 4:44 rule</a> whilst testing other&apos;s submissions, and I think I'll apply it when the next game jam opportunity rolls around.

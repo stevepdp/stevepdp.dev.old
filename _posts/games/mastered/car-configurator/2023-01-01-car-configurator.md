@@ -23,8 +23,14 @@ devlog: car-configurator
 rss_category: Games
 ---
 
-This one is less a complete game and more a slice of a potential game.
+| Made with	| C# &amp; Unity<br>TextMeshPro<br>Unity Asset Store |
+| Timeline | 4 weeks with Mastered bootcamp + ongoing improvement |
+| Playable | <a href="https://stevepdp.itch.io/drive-2053" rel="me noopener noreferrer" target="_blank" title="Play the experience on Itch.io">Itch.io</a> |
+| Source | <a href="https://github.com/stevepdp/car-configurator" rel="me nofollow noopener noreferrer" target="_blank" title="View the source code on GitHub">stevepdp/car-configurator</a> |
 
-It's a car configurator in a post-apocalyptic setting.
+
+### About The Game
+
+This is less a complete game and more a slice of a potential game. It's a car configurator in a post-apocalyptic setting.
 
 Made for Real-Time 3D Skills Bootcamp with Mastered.

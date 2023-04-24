@@ -17,7 +17,7 @@ rss_category: Blog
 
 Something I've been toying with recently is the Raspberry Pi 400.
 
-One of the <a href="https://www.commitstrip.com/en/2014/11/25/west-side-project-story" rel="noopener" target="_blank">many side projects</a> on my mind is to create a simple game using only the 400. Unlike what I've achieved with Unity recently, this will be an engine of my own making and in more "closer to the metal" technologies than what I'm familiar with. There's a lot yet to figure out in terms of Linux programming, building and the remote debugging infrastructure I'd like...but I'm certain the experience will prove valuable.
+One of the <a href="https://www.commitstrip.com/en/2014/11/25/west-side-project-story" rel="nofollow noopener noreferrer" target="_blank">many side projects</a> on my mind is to create a simple game using only the 400. Unlike what I've achieved with Unity recently, this will be an engine of my own making and in more "closer to the metal" technologies than what I'm familiar with. There's a lot yet to figure out in terms of Linux programming, building and the remote debugging infrastructure I'd like...but I'm certain the experience will prove valuable.
 
 Being more familiar with the artistic side of things, I've already experimented with the handful of open source tools I intend to use for generating the art, sound and so on. It became clear however that I would need to make the 400 perform better if I was to use it fully for the creative. I could cheat and use my vastly more powerful P-series Thinkpad for these creative tasks, but the major point of this experiment is to create a game, from beginning to end, using only the Raspberry Pi 400. Constraints are fun!
 
@@ -54,7 +54,7 @@ arm_freq=2200
 
 Surprisingly, this didn't seem to set the warranty bit either.
 
-(Thanks to Jeff Geerling for <a href="https://www.jeffgeerling.com/blog/2020/raspberry-pi-400-can-be-overclocked-22-ghz" rel="noopener" target="_blank">these overclocking notes</a>)
+(Thanks to Jeff Geerling for <a href="https://www.jeffgeerling.com/blog/2020/raspberry-pi-400-can-be-overclocked-22-ghz" rel="nofollow noopener noreferrer" target="_blank">these overclocking notes</a>)
 
 Next up, I installed the M.2 SSD into the enclosure and flashed Raspberry Pi OS (64-bit) to it using the excellent Raspberry Pi Imager program.
 

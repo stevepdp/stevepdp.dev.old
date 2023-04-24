@@ -17,6 +17,6 @@ tags: [all, devlog, re-dream, re-dream-devlog]
 rss_category: Devlogs
 ---
 
-I recently shared a <a href="https://stevepdp.itch.io/re-dream" rel="noopener" target="_blank">first playable of Re:Dream</a> to Itch.io along with a <a href="https://forms.gle/Qy5KRdanYtnbK6Nr8" rel="noopener" target="_blank">questionaire to help gather feedback</a>.
+I recently shared a <a href="https://stevepdp.itch.io/re-dream" rel="me nofollow noopener noreferrer" target="_blank">first playable of Re:Dream</a> to Itch.io along with a <a href="https://forms.gle/Qy5KRdanYtnbK6Nr8" rel="noopener" target="_blank">questionaire to help gather feedback</a>.
 
 It is an early development build and as such has plenty of bugs and little in the way of polish.

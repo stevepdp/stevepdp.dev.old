@@ -232,6 +232,48 @@ code {
     font-size: 16px;
 }
 
+/** 
+ * Typography: tables
+ */
+table {
+  border-spacing: 0;
+  border: 1px solid rgb(var(--main-colour));
+  margin-top: 16px;
+  max-width: 70ch;
+}
+table tr {
+    display: block;
+}
+table tr ~ tr td {
+    border-top: 1px solid rgb(var(--main-colour));
+    text-align: left;
+}
+table tr td:first-of-type {
+    border-right: 1px solid rgb(var(--main-colour));
+}
+table tr td {
+    color: rgb(var(--main-colour));
+    min-width: 96px;
+    padding: 8px;
+    text-align: left;
+    vertical-align: top;
+}
+table tr td ~ td {
+    width: 100%;
+    width: 100vw;
+}
+@media(prefers-color-scheme: dark) {
+    
+    table,
+    table tr ~ tr td,
+    table tr td:first-of-type{
+        border-color: rgb(var(--main-colour));
+    }
+    table tr td {
+        color: rgb(var(--main-colour));
+    }
+}
+
 /**
  * Menu
  */

@@ -20,15 +20,16 @@ tags: [all, game, vaporjam]
 rss_category: Games
 ---
 
-Made in two weeks for <a href="https://itch.io/jam/vaporjam" rel="noopener" target="_blank">VaporJam</a>.
+| Made with	| C# &amp; Unity<br>Aseprite, GIMP<br>CC0, CC-BY-SA assets |
+| Timeline | 2 weeks + post-release improvements |
+| Playable | <a href="https://stevepdp.itch.io/marble-and-glass" rel="me noopener noreferrer" target="_blank" title="Play the game on Itch.io">Itch.io</a> |
+
 
 ### Retrospective
-
-The jam timeline was June 25th to July 11th. Unfortunately it took me a week longer than planned. But it shipped within the window for the jam.
+Made in two weeks for <a href="https://itch.io/jam/vaporjam" rel="noopener noreferrer" target="_blank">VaporJam</a>.
 
 
 #### The Idea
-
 The theme was open-ended: &ldquo;make a vaporwave-themed game&rdquo;. With the ongoing lockdown in England, I&apos;ve been feeling nostalgic of better times. I decided that for this game it would be fun to centre a game around a particularly nostalgic period of my life.
 
 While musing on the theme, I was re-watching some George Carlin specials. His &ldquo;Shopping and Eating&rdquo; routine for some reason sat at the forefront of my mind. So I decided that this would be <em>a super-chill exploration</em> of the late 90&apos;s through the lens of a shopping mall.
@@ -41,7 +42,6 @@ It&apos;s a strange one, but I hope it makes sense and triggers some nostalgic f
 
 
 #### What went well
-
 * It uses Unity&apos;s new input system. Full controller support!
 * Text renders in real-time throughout.
 * There is many in-game BGMs.
@@ -52,12 +52,10 @@ It&apos;s a strange one, but I hope it makes sense and triggers some nostalgic f
 
 
 #### What went wrong
-
 This one really suffered from scope creep. 
 
 
 #### What I learned
-
 With each jam, I&apos;ve aimed to learn at least one new thing. With this one however, there were too many of those things.
 
 For future jams, I&apos;ll make sure to limit it to one significant new thing each time.

@@ -20,22 +20,26 @@ tags: [all, game, one-hour-game-jam]
 rss_category: Games
 ---
 
-Made in approximately one hour for <a href="https://onehourgamejam.com/?page=jam&jam=326" rel="noopener" target="_blank">One Hour Game Jam</a> with the theme "Virtual Pet".
+| Made with	| C# &amp; Unity<br>Aseprite |
+| Timeline | 1 hour + post-release improvements |
+| Playable | <a href="https://stevepdp.itch.io/it-has-a-beard" rel="me noopener noreferrer" target="_blank" title="Play the game on Itch.io">Itch.io</a> |
+
 
 ### Retrospective
-
-#### One Hour Game Jam
-Second time participating in this jam.
-
-When comparing this to the last submission, you can see my one hour prototyping ability has improved.
-
-The game features a little narrative, a little more gameplay and two possible outcomes. I'm pleased with it given the time limit and that it got a laugh on the Twitch stream.
+Made for <a href="https://onehourgamejam.com/?page=jam&jam=326" rel="noopener noreferrer" target="_blank">One Hour Game Jam</a> with the theme "Virtual Pet".
 
 
 #### About The Game
+It's a "clean-em-up".
 
-It's a clean-em-up.
-
-Cyber pets require you to periodically clean the screen. It's what came to mind when the theme was announced.
+Cyber pets require you to periodically clean the screen. So this is what came to mind when the theme was announced.
 
 To play you simply need to collide with the poops that spawn.
+
+
+#### Jamming In One Hour
+It was my second time participating in this jam.
+
+When comparing this to the last submission, you can see my one hour prototyping ability has improved.
+
+The game features a little narrative, a little more gameplay and two possible outcomes. I'm pleased with it given the time limit. It got a laugh on the Twitch stream too!

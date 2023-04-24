@@ -21,6 +21,12 @@ tags: [all, game, other-and-experimental]
 rss_category: Games
 ---
 
+| Made with	| GameMaker Studio 2<br>GIMP<br>Permissively-licensed font and music assets |
+| Timeline | 1 month
+| Playable | <a href="https://stevepdp.itch.io/rad-rocket" rel="me noopener noreferrer" target="_blank" title="Play the game on Itch.io">Itch.io</a> |
+
+
+### About The Game
 Rad Rocket was my first attempt at making, marketing and releasing a game.
 
 It was built using GameMaker Studio 2 in a month.
