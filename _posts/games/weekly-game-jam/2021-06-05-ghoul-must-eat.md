@@ -20,7 +20,7 @@ tags: [all, game, weekly-game-jam]
 rss_category: Games
 ---
 
-| Made with	| C# &amp; Unity<br>Aseprite, GIMP<br>Audacity, Bfxr<br>ChatGPT (AI-assisted time formatting) |
+| Made with	| C# &amp; Unity<br>Aseprite, GIMP<br>Audacity, Bfxr<br>CC0 and PD assets<br>ChatGPT (AI-assisted time formatting) |
 | Timeline | 1 week + post-release improvements |
 | Playable | <a href="https://stevepdp.itch.io/ghoul-must-eat" rel="me noopener noreferrer" target="_blank" title="Play the game on Itch.io">Itch.io</a> |
 | Code | <a href="https://github.com/stevepdp/wgj203-ghoul-must-eat" rel="me noopener noreferrer" target="_blank" title="View the source code on GitHub">stevepdp/wgj203-ghoul-must-eat</a> |
