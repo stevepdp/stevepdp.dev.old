@@ -1107,9 +1107,10 @@ body.single-post .content figure {
     }
     .game-grid {
         margin-bottom: 32px;
-        margin-top: 32px;
+        margin-top: 16px;
     }
     .game {
+        margin-bottom: 32px;
         width: calc(33.33% - 32px);
     }
     .game:nth-child(3n+1) {
