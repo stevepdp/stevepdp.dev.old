@@ -5,6 +5,8 @@ canonical_url: https://stevepdp.dev/games/mastered/car-configurator.html
 date: 2023-01-01 18:51:59
 
 video: car-configurator.mp4
+video_thumbnail: car-configurator.png
+
 thumbnail: car-configurator/opengraph.png
 itch_url: drive-2053
 

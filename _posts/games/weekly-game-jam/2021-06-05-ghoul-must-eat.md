@@ -5,6 +5,8 @@ canonical_url: https://stevepdp.dev/games/weekly-game-jam/ghoul-must-eat.html
 date: 2021-06-05 15:52:54
 
 video: ghoul-must-eat-v1.06-clip.mp4
+video_thumbnail: ghoul-must-eat-v1.06-clip.png
+
 thumbnail: ghoul-must-eat/opengraph.png
 itch_url: ghoul-must-eat
 

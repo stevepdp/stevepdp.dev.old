@@ -1,5 +1,13 @@
 <div class="preview">
-    <video preload="none" class="preview__trailer" alt="Multiplanetary gameplay sample" controls muted autoplay loop playsinline>
+    <video preload="none"
+        {% if page.video_thumbnail %}
+            poster="/assets/video/{{page.video_thumbnail}}"
+        {% endif %}
+        class="preview__trailer"
+        {% if page.video_thumbnail %}
+        alt="{{page.title}} gameplay sample"
+        {% endif %}
+        controls muted autoplay loop playsinline>
         <source src="/assets/video/{{page.video}}" type="video/mp4">
         Your browser does not appear to support mp4 video.
     </video>

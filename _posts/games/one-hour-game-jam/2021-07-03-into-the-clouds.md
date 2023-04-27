@@ -5,6 +5,8 @@ canonical_url: https://stevepdp.dev/games/one-hour-game-jam/into-the-clouds.html
 date: 2021-07-03 11:38:03
 
 video: into-the-clouds-clip.mp4
+video_thumbnail: into-the-clouds-clip.png
+
 thumbnail: into-the-clouds/opengraph.png
 itch_url: into-the-clouds
 

@@ -5,6 +5,8 @@ canonical_url: https://stevepdp.dev/games/games/vaporjam/marble-and-glass.html
 date: 2021-07-01 22:14:10
 
 video: marble-and-glass-clip.mp4
+video_thumbnail: marble-and-glass-clip.png
+
 thumbnail: marble-and-glass/opengraph.png
 itch_url: marble-and-glass
 

@@ -5,6 +5,8 @@ canonical_url: https://stevepdp.dev/games/one-hour-game-jam/it-has-a-beard.html
 date: 2021-07-24 14:01:04
 
 video: it-has-a-beard-clip.mp4
+video_thumbnail: it-has-a-beard-clip.png
+
 thumbnail: it-has-a-beard/opengraph.png
 itch_url: it-has-a-beard
 

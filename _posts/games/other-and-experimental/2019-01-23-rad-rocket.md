@@ -5,6 +5,8 @@ canonical_url: https://stevepdp.dev/games/other-and-experimental/rad-rocket.html
 date: 2019-01-13 11:36:45
 
 video: rad-rocket.mp4
+video_thumbnail: rad-rocket.png
+
 thumbnail: rad-rocket/opengraph.png
 gplay_url: co.uk.stephenpearce.radrocket
 itch_url: rad-rocket
