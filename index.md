@@ -36,10 +36,9 @@ I'm a gameplay programmer with experience in C# &amp; Unity, creating immersive 
 </div>
 See <a href="/games.html">games</a> for more gamedev highlights.
 
-### Steve Elsewhere
 
+### Steve Elsewhere
 * <a href="https://www.github.com/stevepdp" rel="me nofollow noopener noreferrer" target="_blank">GitHub</a> - sharing the source of all my experimental works.
-* <a href="https://www.hackerrank.com/stevepdp" rel="me nofollow noopener noreferrer" target="_blank">HackerRank</a> - making a habit of regular C# problem solving outside of a Unity context.
 * <a href="https://stevepdp.itch.io/" rel="me nofollow noopener noreferrer" target="_blank">Itch.io</a> - pretty much all of my indie and game jam work is shared here.
 * <a href="https://learn.unity.com/u/stevepdp" rel="me nofollow noopener noreferrer" target="_blank">Unity Learn</a> - making progress on Unity's official learning pathways.
 * <a href="https://play.unity.com/u/stevepdp" rel="me nofollow noopener noreferrer" target="_blank">Unity Play</a> - the output of my Unity Learn learnings can be found here.
