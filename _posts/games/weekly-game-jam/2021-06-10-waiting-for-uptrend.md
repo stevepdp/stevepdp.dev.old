@@ -25,6 +25,7 @@ rss_category: Games
 | Made with	| C# &amp; Unity<br>Aseprite, GIMP<br>Permissively-licensed assets |
 | Timeline | 1 week + post-release improvements |
 | Playable | <a href="https://stevepdp.itch.io/waiting-for-uptrend" rel="me noopener noreferrer" target="_blank" title="Play the game on Itch.io">Itch.io</a> |
+| Code | <a href="https://github.com/stevepdp/wgj204-waiting-for-uptrend" rel="me noopener noreferrer" target="_blank" title="View the source code on GitHub">stevepdp/wgj204-waiting-for-uptrend</a> |
 
 
 ### Retrospective
