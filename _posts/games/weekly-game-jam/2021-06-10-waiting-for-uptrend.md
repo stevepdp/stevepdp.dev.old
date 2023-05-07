@@ -4,8 +4,8 @@ permalink: /games/weekly-game-jam/waiting-for-uptrend.html
 canonical_url: https://stevepdp.dev/games/weekly-game-jam/waiting-for-uptrend.html
 date: 2021-06-10 00:24:36
 
-video: waiting-for-uptrend-clip.mp4
-video_thumbnail: waiting-for-uptrend-clip.png
+video: waiting-for-uptrend-v1.09-clip.mp4
+video_thumbnail: waiting-for-uptrend-v1.09-clip.png
 
 thumbnail: waiting-for-uptrend/opengraph.png
 itch_url: waiting-for-uptrend
