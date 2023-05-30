@@ -12,7 +12,7 @@
 				{% for log in site.categories.devlogs %}
 					{% if log.tags contains page.devlog %}
 						{% assign d = log.date | date: "%-d"  %}
-						<li class="devlogs__log"><i class="devlogs__icon fa fa-pencil" aria-hidden="true"></i><a href="{{log.url}}" class="devlogs__link">
+						<li class="devlogs__log"><a href="{{log.url}}" class="devlogs__link">
 						{{ log.date | date: "%Y/%m/%d" }} - {{log.title}}</a></li>
 					{% endif %}
 				{% endfor %}

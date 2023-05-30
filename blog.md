@@ -11,12 +11,9 @@ type: category-blog
 ---
 
 <ul>
-
-
-
 {% for blog in site.categories.blog %}
 
-<li><i class="fa fa-pencil" aria-hidden="true"></i><a href="{{blog.url}}" title="Click to read the entry: {{post.title}}">{{blog.title}}</a>
+<li><a href="{{blog.url}}" title="Click to read the entry: {{post.title}}">{{blog.title}}</a>
 <span class="postdate">
 {% assign d = blog.date | date: "%-d"  %}
 {{ blog.date | date: "%B" }}

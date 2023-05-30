@@ -31,7 +31,7 @@ I'm a gameplay programmer with experience in C# &amp; Unity, creating immersive 
 		<h3 class="game__desc">Re:Dream</h3>
 	</a>
 	<a href="/games/mastered/car-configurator.html" class="game" style="background-image: url(/assets/img/games/car-configurator/screenshot-squarecropnohud.png)">
-		<h3 class="game__desc">Drive 2053: Car Configurator</h3>
+		<h3 class="game__desc"><span class="sr-only">Drive 2053: </span>Car Configurator</h3>
 	</a>
 </div>
 See <a href="/games.html">games</a> for more gamedev highlights.
