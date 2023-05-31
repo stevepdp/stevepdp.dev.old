@@ -11,10 +11,7 @@ type: single
 ---
 
 ### About
-Greetings!
-
-I'm a gameplay programmer with experience in C# &amp; Unity, creating immersive 2D and 3D experiences for various platforms. Currently, I'm enrolled in a bootcamp with Mastered. As the first phase comes to a close, I'm now seeking a remote, full-time position in the industry.
-
+Hi! I&apos;m a <span class="highlight">gameplay programmer</span> with <a href="https://github.com/stevepdp?tab=repositories&q=&type=&language=c%23&sort=" rel="me nofollow noopener noreferrer" target="_blank">demonstrable experience</a> in <span class="highlight">C# & Unity</span>, creating 2D/3D experiences for PC & console targets. Currently, I&apos;m enrolled in a bootcamp with Mastered. As the first phase comes to a close, I&apos;m <span class="highlight">seeking remote, full-time work</span> in the games industry.
 
 ### Contact
 * Email: <a href="mailto:hello@stevepdp.dev" subject="Website enquiry">hello@stevepdp.dev</a>

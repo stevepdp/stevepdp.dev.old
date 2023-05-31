@@ -39,8 +39,10 @@
  */
 :root {
     --stevepdp-accent: #706deb;
+    --stevepdp-accent-rgb: 112,109,235;
     --stevepdp-black: #191918;
     --stevepdp-grey: #5c636d;
+    --stevepdp-grey-rgb: 92, 99, 109;
     --stevepdp-white: #f1f1f1;
     --contrast-colour: 255, 255, 255;
     --contrast-colour-alt: 249, 249, 249;
@@ -176,6 +178,15 @@ figcaption {
  */
 .assist {
     display: none;
+}
+.highlight {
+    background-color: rgba(var(--stevepdp-grey-rgb), .075);
+}
+@media(prefers-color-scheme: dark) {
+    
+    .highlight {
+        background-color: rgba(var(--stevepdp-grey-rgb), .25);
+    }
 }
 .wrap {
     padding: 8px 8px 64px 8px;
