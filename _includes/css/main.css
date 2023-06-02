@@ -505,7 +505,14 @@ html.menu--toggled .menu::-webkit-scrollbar {
     text-decoration: none;
 }
 .newsletter a:hover {
+    box-shadow: 0 0 0 4px var(--stevepdp-white), 0 0 0 8px var(--stevepdp-accent);
     text-decoration: none;
+}
+@media(prefers-color-scheme: dark) {
+
+    .newsletter a:hover {
+        box-shadow: 0 0 0 4px var(--stevepdp-black), 0 0 0 8px var(--stevepdp-accent);
+    }
 }
 .icons {
     margin: 0;
@@ -607,7 +614,6 @@ body[class^="category-"] main h2 {
 body[class^="category-"] main h2 i {
     margin-left: 12px;
 }
-
 .game-grid {
     display: flex;
     flex-wrap: wrap;
@@ -621,15 +627,18 @@ body[class^="category-"] main h2 i {
     position: relative;
     width: 100%;
 }
+.game:hover {
+    box-shadow: 0 0 0 4px var(--stevepdp-white), 0 0 0 8px var(--stevepdp-accent);
+}
 @media(prefers-color-scheme: dark) {
 
     .game {
         background-color: rgb(var(--dark-background));
         box-shadow: none;
     }
-}
-.game:hover .game__desc {
-    text-decoration: underline;
+    .game:hover {
+        box-shadow: 0 0 0 4px var(--stevepdp-black), 0 0 0 8px var(--stevepdp-accent);
+    }
 }
 .game::before {
     content: "";
@@ -652,7 +661,11 @@ body[class^="category-"] main h2 i {
     margin: 0;
     padding: 6px;
     text-align: right;
+    text-decoration: none;
     text-transform: none;
+}
+.game:hover .game__desc {
+    text-decoration: none;
 }
 @media(prefers-color-scheme: dark) {
 
