@@ -384,7 +384,7 @@ html.menu--toggled .menu::-webkit-scrollbar {
     display: none;
 }
 .menu__inner {
-    padding-bottom: 128px;
+    padding-bottom: 0;
     z-index: 1;
 }
 .menu__list {
@@ -489,6 +489,23 @@ html.menu--toggled .menu::-webkit-scrollbar {
     border-radius: 50%;
     height: auto;
     width: 42px;
+}
+.newsletter {
+    margin-top: 16px;
+    text-align: right;
+    width: 100%;
+}
+.newsletter a {
+    background-color: var(--stevepdp-accent);
+    color: #f1f1f1;
+    display: inline-block;
+    font-family: "Lato", sans-serif;
+    font-weight: 500;
+    padding: 16px 24px;
+    text-decoration: none;
+}
+.newsletter a:hover {
+    text-decoration: none;
 }
 .icons {
     margin: 0;
@@ -711,6 +728,13 @@ body.category-blog main ul li i {
 }
 
 /**
+ * Single 
+ */
+body.single .game-grid {
+    margin-bottom: -16px;
+}
+
+/**
  * Single: blog
  */
 body.single-post .content figure {
@@ -794,6 +818,9 @@ body.single-post .content figure {
     }
     .icons li a {
         padding: 24px 16px;
+    }
+    .newsletter {
+        text-align: center;
     }
 
     /* Game grid */
@@ -938,8 +965,7 @@ body.single-post .content figure {
         display: none;
     }
     .menu__list {
-        margin-top: 8px;
-        margin-bottom: calc(92px);
+        margin-bottom: 56px;
         padding-bottom: 0;
     }
     .menu__list li {

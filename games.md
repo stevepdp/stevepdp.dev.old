@@ -53,4 +53,3 @@ type: category-games
 		<h3 class="game__desc">Rad Rocket</h3>
 	</a>
 </div>
-

@@ -28,7 +28,3 @@ type: category-blog
 
 {% endfor %}
 </ul>
-
-
-
-
