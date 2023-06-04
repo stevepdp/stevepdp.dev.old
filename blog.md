@@ -3,7 +3,7 @@ title: Blog
 canonical_url: https://stevepdp.dev/blog.html
 
 og_title: "Stephen Pearce's Blog"
-og_description: "Stephen Pearce's blog. Musings on tech. Software, hardware and tales of development."
+og_description: "Stephen Pearce's homepage. Featuring games, retrospectives and blogs."
 og_image: "https://stevepdp.dev/assets/img/stevepdp_130x.png"
 
 layout: category-blog
@@ -13,7 +13,7 @@ type: category-blog
 <ul>
 {% for blog in site.categories.blog %}
 
-<li><a href="{{blog.url}}" title="Click to read the entry: {{post.title}}">{{blog.title}}</a>
+<li><a href="{{blog.url}}">{{blog.title}}</a>
 <span class="postdate">
 {% assign d = blog.date | date: "%-d"  %}
 {{ blog.date | date: "%B" }}

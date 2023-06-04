@@ -7,9 +7,7 @@
     <atom:link href="https://stevepdp.dev{{ page.url }}" rel="self" type="application/rss+xml"/>
     <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
     <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
-    <generator>Jekyll</generator>
-    {% for post in site.posts %}
-      {% if post.tags contains page.tag %}
+    <generator>Jekyll</generator>{% for post in site.posts %}{% if post.tags contains page.tag %}
       <item>
         <title>{{ post.title }}</title>
         <description>{{ post.content | strip_html | truncatewords: 50 }}</description>
@@ -18,8 +16,6 @@
         <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
         <link>{{ site.url }}{{ post.url }}</link>
         <guid>{{ site.url }}{{ post.url }}</guid>
-      </item>
-      {% endif %}
-    {% endfor %}
+      </item>{% endif %}{% endfor %}
   </channel>
 </rss>

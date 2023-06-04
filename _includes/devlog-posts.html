@@ -2,11 +2,7 @@
 	{% if category contains "has-devlog" %}
 		{% assign devlog_name = page.devlog %}
 			<h3>
-				Devlogs
-				<a href="/{{ devlog_name }}-devlog.rss" class="rss">
-					<i class="fa fa-rss" aria-hidden="true"></i>
-					<span class="assist">RSS</span>
-				</a>
+				Devlogs<a href="/{{ devlog_name }}-devlog.rss" title="The RSS feed for {{ devlog_name }} devlogs" class="rss"><i class="fa fa-rss" aria-hidden="true"></i><span class="assist">RSS</span></a>
 			</h3>
 			<ul class="devlogs">
 				{% for log in site.categories.devlogs %}

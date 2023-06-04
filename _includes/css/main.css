@@ -608,10 +608,11 @@ figure img {
 /**
  * Category: games
  */
-body[class^="category-"] main h2 {
-    display: inline;
+main h2 {
+    display: inline-block;
+    margin-bottom: 0;
 }
-body[class^="category-"] main h2 i {
+main h2 i {
     margin-left: 12px;
 }
 .game-grid {
@@ -757,6 +758,9 @@ body.single-post .content figure {
 /**
  * Single: game
  */
+.single-game header h2 {
+    margin-bottom: 40px;
+}
 .rss {
     padding-left: 8px;
 }
@@ -1132,6 +1136,9 @@ body.single-post .content figure {
     ol,
     pre {
         font-size: 18px;
+    }
+    table {
+        margin-top: 0;
     }
 
     .sidebar {
