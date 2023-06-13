@@ -11,7 +11,9 @@ type: single
 ---
 
 ### About
-Hi! I&apos;m a <span class="highlight">gameplay programmer</span> with <a href="https://github.com/stevepdp?tab=repositories&q=&type=&language=c%23&sort=" rel="me nofollow noopener noreferrer" target="_blank">demonstrable experience</a> in <span class="highlight">C# & Unity</span>, creating 2D/3D experiences for PC & console targets. Currently, I&apos;m enrolled in a bootcamp with Mastered. As the first phase comes to a close, I&apos;m <span class="highlight">seeking remote, full-time work</span> in the games industry.
+Hi! I&apos;m a <span class="highlight">gameplay programmer</span> with demonstrable experience in <span class="highlight">C# & Unity</span>, creating 2D/3D experiences for PC & console targets. Currently, I&apos;m enrolled in a bootcamp with Mastered. As the first phase comes to a close, I&apos;m <span class="highlight">seeking remote, full-time work</span> in the games industry.
+
+<a href="/cv.html">View my CV here</a> or <a href="/assets/doc/cv-public.pdf" target="_blank">download the PDF version</a>.
 
 ### Contact
 

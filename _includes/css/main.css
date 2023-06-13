@@ -257,6 +257,12 @@ ol,
     max-width: 620px;
     max-width: 70ch;
 }
+body.single.cv p,
+body.single.cv ul,
+body.single.cv ol,
+body.single.cv .footer {
+    max-width: none;
+}
 a {
     color: rgb(var(--main-colour));
 }
@@ -301,6 +307,23 @@ table tr td ~ td {
     width: 100%;
     width: 100vw;
 }
+table.records {
+    background: var(--stevepdp-white);
+    border: none;
+    border-left: 8px solid var(--stevepdp-accent);
+    box-shadow: 2px 2px 4px rgba(var(--main-colour), .6);
+    margin-top: 16px;
+    max-width: none;
+    vertical-align: top;
+}
+table.records tr td {
+    border: none;
+    width: 50vw;
+}
+table.records tr td ~ td {
+    text-align: right;
+}
+
 @media(prefers-color-scheme: dark) {
     
     table,
@@ -310,6 +333,14 @@ table tr td ~ td {
     }
     table tr td {
         color: rgb(var(--main-colour));
+    }
+
+    table.records {
+        background: var(--stevepdp-black);
+        border-right: 1px solid rgb(var(--main-colour));
+        border-top: 1px solid rgb(var(--main-colour));
+        border-bottom: 1px solid rgb(var(--main-colour));
+        box-shadow: none;
     }
 }
 
@@ -441,7 +472,7 @@ html.menu--toggled .menu::-webkit-scrollbar {
     list-style: none;
 }
 .content__wrap ul li:before {
-    content: "\2022";
+    content: "\003E";
     color: var(--stevepdp-accent);
     display: inline-block;
     font-weight: bold;
@@ -870,6 +901,9 @@ body.single-post .content figure {
     }
     .downloads li a img {
         margin: 0;
+    }
+    table.records {
+        padding-left: 16px;
     }
 }
 
