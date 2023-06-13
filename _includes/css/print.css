@@ -1,0 +1,11 @@
+@media only print {
+
+	.avatar,
+	.menu,
+	.burger {
+		display: none;
+	}
+	.headline__sub {
+		display: block;
+	}
+}
