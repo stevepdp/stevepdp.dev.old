@@ -13,7 +13,7 @@ type: single
 ### About
 Hi! I&apos;m a <span class="highlight">gameplay programmer</span> with demonstrable experience in <span class="highlight">C# & Unity</span>, creating 2D/3D experiences for PC & console targets. Currently, I&apos;m enrolled in a bootcamp with Mastered. As the first phase comes to a close, I&apos;m <span class="highlight">seeking remote, full-time work</span> in the games industry.
 
-<a href="/cv.html">View my CV here</a> or <a href="/assets/doc/cv-public.pdf" target="_blank">download the PDF version</a>.
+<a href="/cv.html">View my CV here</a> or <a href="/assets/doc/cv-public-202306262.pdf" target="_blank">download the PDF version</a>.
 
 ### Contact
 
