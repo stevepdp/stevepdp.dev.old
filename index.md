@@ -53,5 +53,4 @@ Sign up to <a href="https://stevepdp.substack.com" rel="me nofollow noopener nor
 * <a href="https://www.tiktok.com/@stevepdp" rel="me nofollow noopener noreferrer" target="_blank" title="Stephen Pearce on TikTok">TikTok</a>
 * <a href="https://www.tumblr.com/stevepdp" rel="me nofollow noopener noreferrer" target="_blank" title="Stephen Pearce on Tumblr">Tumblr</a>
 * <a href="https://www.twitch.com/stevepdp_dev" rel="me nofollow noopener noreferrer" target="_blank" title="Stephen Pearce on Twitch">Twitch</a>
-* <a href="https://www.twitter.com/stevepdp" rel="me nofollow noopener noreferrer" target="_blank" title="Stephen Pearce on Twitter">Twitter</a>
 * <a href="https://www.youtube.com/@stevepdp" rel="me nofollow noopener noreferrer" target="_blank" title="Stephen Pearce on YouTube">YouTube</a>
