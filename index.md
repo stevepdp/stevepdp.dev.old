@@ -41,7 +41,7 @@ See <a href="/games.html">games</a> for more gamedev projects.
 ### My Work Elsewhere
 * <a href="https://www.github.com/stevepdp" rel="me nofollow noopener noreferrer" target="_blank">GitHub</a> - sharing source code and <a href="https://gist.github.com/stevepdp" rel="me nofollow noreferrer noopener" target="_blank">gists</a> of legacy and game jam works.
 * <a href="https://stevepdp.itch.io/" rel="me nofollow noopener noreferrer" target="_blank">Itch.io</a> - all of my indie and game jam playables are shared here.
-* <a href="https://play.unity.com/u/stevepdp" rel="me nofollow noopener noreferrer" target="_blank">Unity Play</a> - playables from the Unity Learn pathways.
+* <a href="https://play.unity.com/u/stevepdp" rel="me nofollow noopener noreferrer" target="_blank">Unity Play</a> - playables from the <a href="https://learn.unity.com/u/stevepdp" rel="me nofollow noopener noreferrer" target="_blank" title="Stephen Pearce on Unity Learn">Unity Learn</a> pathways.
 
 ### Platforms and Social Media
 Sign up to <a href="https://stevepdp.substack.com" rel="me nofollow noopener noreferrer" target="_blank">my newsletter</a> for weekly updates, tips and creative inspiration. Otherwise, you may find me occasionally posting to:
