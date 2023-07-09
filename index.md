@@ -23,7 +23,7 @@ Hi! I&apos;m a <span class="highlight">gameplay programmer</span> with demonstra
 ### What&apos;s New?
 * I recently completed the <a href="https://www.credly.com/badges/3e03a23b-b72d-48b1-b1d3-2cd199f63d76/public_url" rel="me nofollow noopener noreferrer" target="_blank">Junior Programmer</a> pathway on Unity Learn.
 * I have been refactoring and improving my game <a href="/games/weekly-game-jam/ghoul-must-eat.html">jam</a> <a href="http://localhost:8080/games/weekly-game-jam/waiting-for-uptrend.html">projects</a>, bringing each codebase up to an improved standard with OOP and SOLID principles among other things.
-* I recently launched a <a href="https://stevepdp.substack.com" rel="me nofollow noreferrer noopener" target="_blank">weekly newsletter</a>. Each Wednesday I publish a personal update along with a curation of industry news, tips and creative inspiration.
+* I recently launched a <a href="https://stevepdp.substack.com" rel="me nofollow noreferrer noopener" target="_blank">newsletter</a>. With each publication I provide a personal update along with a curation of domain-relevant news, tips and creaitve inspiration.
 
 
 ### Featured Works
