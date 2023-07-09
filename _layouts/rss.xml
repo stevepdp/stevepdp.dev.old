@@ -4,13 +4,15 @@
     <title>{{ page.rss_name }}</title>
     <description>{{ page.rss_desc }}</description>
     <link>{{ site.url }}</link>
+    <language>en-GB</language>
+    <copyright>2020-{{ 'now' | date: "%Y" }} Stephen Pearce</copyright>
     <atom:link href="https://stevepdp.dev{{ page.url }}" rel="self" type="application/rss+xml"/>
     <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
     <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
     <generator>Jekyll</generator>{% for post in site.posts %}{% if post.tags contains page.tag %}
       <item>
         <title>{{ post.title }}</title>
-        <description>{{ post.content | strip_html | truncatewords: 50 }}</description>
+        <description>{{ post.content | xml_escape | truncatewords:  64}}</description>
         <category>{{ post.rss_category }}</category>
         <author>Stephen Pearce</author>
         <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
