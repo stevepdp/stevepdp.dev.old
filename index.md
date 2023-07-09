@@ -49,6 +49,8 @@ Sign up to <a href="https://stevepdp.substack.com" rel="me nofollow noopener nor
 * <a href="https://www.linkedin.com/in/stevepdp/" rel="me nofollow noopener noreferrer" target="_blank" title="Stephen Pearce on LinkedIn">LinkedIn</a>
 * <a href="https://peoplemaking.games/@stevepdp" rel="me nofollow noopener noreferrer" target="_blank" title="Stephen Pearce on the PeopleMaking.Games instance of Mastodon">Mastodon</a>
 * <a href="https://www.reddit.com/user/stevepdp_dev" rel="me nofollow noopener noreferrer" target="_blank" title="Stephen Pearce on Reddit">Reddit</a>
+* <a href="https://stevepdp.substack.com" rel="me nofollow noopener noreferrer" target="_blank" title="Stephen Pearce on Substack">Substack</a>
+* <a href="https://www.threads.net/@stevepdp" rel="me nofollow noopener noreferrer" target="_blank" title="Stephen Pearce on Threads">Threads</a>
 * <a href="https://www.tiktok.com/@stevepdp" rel="me nofollow noopener noreferrer" target="_blank" title="Stephen Pearce on TikTok">TikTok</a>
 * <a href="https://www.tumblr.com/stevepdp" rel="me nofollow noopener noreferrer" target="_blank" title="Stephen Pearce on Tumblr">Tumblr</a>
 * <a href="https://www.twitch.com/stevepdp_dev" rel="me nofollow noopener noreferrer" target="_blank" title="Stephen Pearce on Twitch">Twitch</a>
