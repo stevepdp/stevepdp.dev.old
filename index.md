@@ -11,12 +11,11 @@ type: single
 ---
 
 ### About
-Hi! I&apos;m a <span class="highlight">gameplay programmer</span> with demonstrable experience in <span class="highlight">C# & Unity</span>, creating 2D/3D experiences for PC & console targets. Having recently completed a gameplay programming bootcamp with Mastered, I&apos;m now looking to embark on a career in the games industry as a full-time and remote-working junior gameplay programmer.
+Hi! I&apos;m a <span class="highlight">gameplay programmer</span> with demonstrable experience in <span class="highlight">C# & Unity</span>. Having recently completed a gameplay programming bootcamp with Mastered, I&apos;m now embarking on a career in the games industry as a junior gameplay programmer.
 
 <a href="/cv.html">View my CV here</a> or <a href="/assets/doc/cv-public-202306262.pdf" target="_blank">download the PDF version</a>.
 
 ### Contact
-
 * Email: <a href="mailto:hello@stevepdp.dev">hello@stevepdp.dev</a>
 
 
