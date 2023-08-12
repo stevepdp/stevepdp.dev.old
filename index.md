@@ -11,18 +11,20 @@ type: single
 ---
 
 ### About
-Hi! I&apos;m a <span class="highlight">gameplay programmer</span> with demonstrable experience in <span class="highlight">C# & Unity</span>. Having recently completed a gameplay programming bootcamp with Mastered, I&apos;m now embarking on a career in the games industry as a junior gameplay programmer.
+Hi! I&apos;m a <span class="highlight">gameplay programmer</span> experienced in <span class="highlight">C# &amp; Unity</span>. Having recently completed a gameplay programming bootcamp with Mastered, I&apos;m now seeking a role in the industry.
 
-<a href="/cv.html">View my CV here</a> or <a href="/assets/doc/cv-public-202306262.pdf" target="_blank">download the PDF version</a>.
+If you're hiring, please consider <a href="/cv.html">viewing my CV</a> or <a href="/assets/doc/cv-public-202306262.pdf" target="_blank">download the PDF version</a>. Take a look at my <a href="/games.html">portfolio projects</a> and <a href="https://github.com/stevepdp" rel="me nofollow noopener noreferrer" target="_blank">source code</a> too.
+
 
 ### Contact
 * Email: <a href="mailto:hello@stevepdp.dev">hello@stevepdp.dev</a>
+* LinkedIn: <a href="https://linkedin.com/in/stevepdp" rel="me nofollow noopener noreferrer" target="_blank">stevepdp</a>
 
 
 ### What&apos;s New?
+* I'm working on adding C &amp; C++ to the repetoire. I've chosen to use the Sololearn platform for this as well as my own experiments under MinGW and WSL2.
 * I recently completed the <a href="https://www.credly.com/badges/3e03a23b-b72d-48b1-b1d3-2cd199f63d76/public_url" rel="me nofollow noopener noreferrer" target="_blank">Junior Programmer</a> pathway on Unity Learn.
 * I have been refactoring and improving my game <a href="/games/weekly-game-jam/ghoul-must-eat.html">jam</a> <a href="http://localhost:8080/games/weekly-game-jam/waiting-for-uptrend.html">projects</a>, bringing each codebase up to an improved standard with OOP and SOLID principles among other things.
-* I recently launched a <a href="https://stevepdp.substack.com" rel="me nofollow noreferrer noopener" target="_blank">newsletter</a>. With each publication I provide a personal update along with a curation of domain-relevant news, tips and creaitve inspiration.
 
 
 ### Featured Works
@@ -43,7 +45,7 @@ See <a href="/games.html">games</a> for more gamedev projects.
 * <a href="https://play.unity.com/u/stevepdp" rel="me nofollow noopener noreferrer" target="_blank">Unity Play</a> - playables from the <a href="https://learn.unity.com/u/stevepdp" rel="me nofollow noopener noreferrer" target="_blank" title="Stephen Pearce on Unity Learn">Unity Learn</a> pathways.
 
 ### Platforms and Social Media
-Sign up to <a href="https://stevepdp.substack.com" rel="me nofollow noopener noreferrer" target="_blank">my newsletter</a> for weekly updates, tips and creative inspiration. Otherwise, you may find me occasionally posting to:
+Sign up to <a href="https://stevepdp.substack.com" rel="me nofollow noopener noreferrer" target="_blank">my newsletter</a> for updates, tips and creative inspiration. Otherwise, you may find me occasionally posting to:
 
 * <a href="https://www.instagram.com/stevepdp" rel="me nofollow noopener noreferrer" target="_blank" title="Stephen Pearce on Instagram">Instagram</a>
 * <a href="https://www.linkedin.com/in/stevepdp/" rel="me nofollow noopener noreferrer" target="_blank" title="Stephen Pearce on LinkedIn">LinkedIn</a>
