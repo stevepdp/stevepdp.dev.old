@@ -32,7 +32,7 @@ I have 2-3 years experience developing games in <strong>C# &amp; Unity</strong>.
 
 <u>C#</u> &mdash; Proficient in <strong>OOP principles</strong>: abstraction, inheritance, polymorphism & encapsulation. <strong>SOLID principles</strong>. Events & event-driven logic. Persistent data storage, search & data-driven logic. Debugging, profiling & performance optimisation.
 
-<u>C/C++</u> &mdash; Beginning C and C++ under MinGW and WSL 2 environments. Custom toolchains, make scripts, gcc/g++ compilers, static/dynamic library linking and custom paths, gdb, valgrind, dependency resolving with readelf, ldd and file.
+<u>C/C++</u> &mdash; Intermediate C and C++ under MinGW and WSL 2 environments. Custom toolchains, make scripts, gcc/g++ compilers, static/dynamic library linking and custom paths, gdb, valgrind, dependency resolving with readelf, ldd and file.
 
 <u>Version Control</u> &mdash; Experience with <strong>Git</strong>, <strong>GitHub</strong>, and GitLab. Understanding of branching models. Following commit rules and conventions, filing issues, pull requests, writing documentation, organisations/permissions and API integrations.
 
@@ -81,15 +81,15 @@ I have 2-3 years experience developing games in <strong>C# &amp; Unity</strong>.
 <table class="records">
 	<tbody>
 		<tr>
-			<td>Intermediate C</td>
+			<td><a href="https://www.sololearn.com/certificates/CC-7TQAOAPI" rel="nofollow noopener noreferrer" target="_blank">Intermediate C++</a></td>
 			<td>Digital certificate issued by SoloLearn, August 2023</td>
 		</tr>
 		<tr>
-			<td>Introduction to C</td>
-			<td>Digital certificate issued by SoloLearn, July 2023</td>
+			<td><a href="https://www.sololearn.com/certificates/CC-KC2GHEHE" rel="nofollow noopener noreferrer" target="_blank">Intermediate C</a></td>
+			<td>Digital certificate issued by SoloLearn, August 2023</td>
 		</tr>
 		<tr>
-			<td>Unity Learn – Junior Programmer</td>
+			<td><a href="https://www.credly.com/badges/3e03a23b-b72d-48b1-b1d3-2cd199f63d76" rel="nofollow noopener noreferrer" target="_blank">Unity Learn – Junior Programmer</a></td>
 			<td>Digital certificate issued by Unity Technologies, June 2023</td>
 		</tr>
 	</tbody>
