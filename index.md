@@ -13,7 +13,7 @@ type: single
 ### About
 Hi! I&apos;m a <span class="highlight">gameplay programmer</span> experienced in <span class="highlight">C# &amp; Unity</span>. Having recently completed a gameplay programming bootcamp with Mastered, I&apos;m now seeking a role in the industry.
 
-If you're hiring, please consider <a href="/cv.html">viewing my CV</a> or <a href="/assets/doc/cv-public-202308130039.pdf" target="_blank">download the PDF version</a>. Take a look at my <a href="/games.html">portfolio projects</a> and <a href="https://github.com/stevepdp" rel="me nofollow noopener noreferrer" target="_blank">source code</a> too.
+If you're hiring, please consider <a href="/cv.html">viewing my CV</a> or <a href="/assets/doc/cv-public-202308251402.pdf" target="_blank">download the PDF version</a>. Take a look at my <a href="/games.html">portfolio projects</a> and <a href="https://github.com/stevepdp" rel="me nofollow noopener noreferrer" target="_blank">source code</a> too.
 
 
 ### Contact

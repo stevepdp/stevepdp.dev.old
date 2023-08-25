@@ -9,7 +9,7 @@ layout: single
 type: single cv
 ---
 
-Alternatively available <a href="/assets/doc/cv-public-202308130039.pdf" target="_blank">in PDF format</a>.
+Alternatively available <a href="/assets/doc/cv-public-202308251402.pdf" target="_blank">in PDF format</a>.
 
 <h3>Contact</h3>
 <ul>
