@@ -22,7 +22,7 @@ If you're hiring, please consider <a href="/cv.html">viewing my CV</a> or <a hre
 
 
 ### What&apos;s New?
-* I'm working on adding C &amp; C++ to the repetoire. I've chosen to use the Sololearn platform for this as well as my own experiments under MinGW and WSL2.
+* I'm working on adding C &amp; C++ to the repetoire. I've chosen to use the Sololearn platform for this as well as my own experiments under MinGW and WSL2 shells.
 * I recently completed the <a href="https://www.credly.com/badges/3e03a23b-b72d-48b1-b1d3-2cd199f63d76/public_url" rel="me nofollow noopener noreferrer" target="_blank">Junior Programmer</a> pathway on Unity Learn.
 * I have been refactoring and improving my game <a href="/games/weekly-game-jam/ghoul-must-eat.html">jam</a> <a href="http://localhost:8080/games/weekly-game-jam/waiting-for-uptrend.html">projects</a>, bringing each codebase up to an improved standard with OOP and SOLID principles among other things.
 
@@ -40,20 +40,22 @@ See <a href="/games.html">games</a> for more gamedev projects.
 
 
 ### My Work Elsewhere
-* <a href="https://www.github.com/stevepdp" rel="me nofollow noopener noreferrer" target="_blank">GitHub</a> - sharing source code and <a href="https://gist.github.com/stevepdp" rel="me nofollow noreferrer noopener" target="_blank">gists</a> of legacy and game jam works.
+* <a href="https://www.github.com/stevepdp" rel="me nofollow noopener noreferrer" target="_blank">GitHub</a> - sharing the source code and <a href="https://gist.github.com/stevepdp" rel="me nofollow noreferrer noopener" target="_blank">gists</a> of my game jam works.
 * <a href="https://stevepdp.itch.io/" rel="me nofollow noopener noreferrer" target="_blank">Itch.io</a> - all of my indie and game jam playables are shared here.
 * <a href="https://play.unity.com/u/stevepdp" rel="me nofollow noopener noreferrer" target="_blank">Unity Play</a> - playables from the <a href="https://learn.unity.com/u/stevepdp" rel="me nofollow noopener noreferrer" target="_blank" title="Stephen Pearce on Unity Learn">Unity Learn</a> pathways.
 
-### Platforms and Social Media
-Sign up to <a href="https://stevepdp.substack.com" rel="me nofollow noopener noreferrer" target="_blank">my newsletter</a> for updates, tips and creative inspiration. Otherwise, you may find me occasionally posting to:
 
+### Social Media
+Sign up to <a href="https://stevepdp.substack.com" rel="me nofollow noopener noreferrer" target="_blank">my newsletter</a> for occasional updates, gameplay programming tips and creative inspiration. Otherwise, you may find occasional updates at:
+
+* <a href="https://bsky.app/profile/stevepdp.dev" rel="me nofollow noopener noreferrer" target="_blank" title="Stephen Pearce on Bluesky">Bluesky</a>
 * <a href="https://www.instagram.com/stevepdp" rel="me nofollow noopener noreferrer" target="_blank" title="Stephen Pearce on Instagram">Instagram</a>
 * <a href="https://www.linkedin.com/in/stevepdp/" rel="me nofollow noopener noreferrer" target="_blank" title="Stephen Pearce on LinkedIn">LinkedIn</a>
-* <a href="https://peoplemaking.games/@stevepdp" rel="me nofollow noopener noreferrer" target="_blank" title="Stephen Pearce on the PeopleMaking.Games instance of Mastodon">Mastodon</a>
+* <a href="https://mastodon.gamedev.place/@stevepdp_dev" rel="me nofollow noopener noreferrer" target="_blank" title="Stephen Pearce on the mastodon.gamedev.place instance of Mastodon">Mastodon</a>
 * <a href="https://www.reddit.com/user/stevepdp_dev" rel="me nofollow noopener noreferrer" target="_blank" title="Stephen Pearce on Reddit">Reddit</a>
-* <a href="https://stevepdp.substack.com" rel="me nofollow noopener noreferrer" target="_blank" title="Stephen Pearce on Substack">Substack</a>
 * <a href="https://www.threads.net/@stevepdp" rel="me nofollow noopener noreferrer" target="_blank" title="Stephen Pearce on Threads">Threads</a>
 * <a href="https://www.tiktok.com/@stevepdp" rel="me nofollow noopener noreferrer" target="_blank" title="Stephen Pearce on TikTok">TikTok</a>
 * <a href="https://www.tumblr.com/stevepdp" rel="me nofollow noopener noreferrer" target="_blank" title="Stephen Pearce on Tumblr">Tumblr</a>
 * <a href="https://www.twitch.com/stevepdp_dev" rel="me nofollow noopener noreferrer" target="_blank" title="Stephen Pearce on Twitch">Twitch</a>
+* <a href="https://www.twitter.com/stevepdp" rel="me nofollow noopener noreferrer" target="_blank" title="Stephen Pearce on X">X</a>
 * <a href="https://www.youtube.com/@stevepdp" rel="me nofollow noopener noreferrer" target="_blank" title="Stephen Pearce on YouTube">YouTube</a>
