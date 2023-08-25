@@ -22,7 +22,7 @@ If you're hiring, please consider <a href="/cv.html">viewing my CV</a> or <a hre
 
 
 ### What&apos;s New?
-* I'm working on adding C &amp; C++ to the repetoire. I've chosen to use the Sololearn platform for this as well as my own experiments under MinGW and WSL2 shells.
+* In preparation for a new portfolio effort as well as to build out more desirable T-shaped gameplay programming skills, I've been learning C & C++. I recently completed the <a href="https://www.sololearn.com/certificates/CC-KC2GHEHE" rel="nofollow noopener noreferrer" target="_blank">Intermediate C</a> and <a href="https://www.sololearn.com/certificates/CC-7TQAOAPI" rel="nofollow noopener noreferrer" target="_blank">Intermediate C++</a> courses on Sololearn.
 * I recently completed the <a href="https://www.credly.com/badges/3e03a23b-b72d-48b1-b1d3-2cd199f63d76/public_url" rel="me nofollow noopener noreferrer" target="_blank">Junior Programmer</a> pathway on Unity Learn.
 * I have been refactoring and improving my game <a href="/games/weekly-game-jam/ghoul-must-eat.html">jam</a> <a href="http://localhost:8080/games/weekly-game-jam/waiting-for-uptrend.html">projects</a>, bringing each codebase up to an improved standard with OOP and SOLID principles among other things.
 
