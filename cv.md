@@ -24,7 +24,7 @@ I have 2-3 years experience developing games in <strong>C# &amp; Unity</strong>.
 * Also with Mastered: 4x &ldquo;monthly creator challenges&rdquo;, each simulating a live production scenario.
 * Independent participation in 8+ game jams – playables: <a href="https://stevepdp.itch.io" rel="me nofollow noopener noreferrer" target="_blank">stevepdp.itch.io</a>, source code: <a href="https://github.com/stevepdp" rel="me nofollow noopener noreferrer" target="_blank">github.com/stevepdp</a>.
 * 8+ years prior professional and creative experience in Web, Linux and Open Source technologies.
-* 9x self-learning certificates in games business, design and development. Recently: C/C++, Unity Learn pathways.
+* 11x self-learning certificates in games business, design and development. Recently: C/C++, Unity Learn pathways.
 * Foundation Degree in Business Computing.
 
 <h3>Technical Skills</h3>
