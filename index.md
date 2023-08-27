@@ -27,10 +27,10 @@ Hi! I&apos;m a <span class="highlight">gameplay programmer</span> proficient in 
 ### Featured Works
 <div class="game-grid">
 	<a href="/games/mastered/re-dream.html" class="game" style="background-image: url(/assets/img/games/re-dream/screenshot-squarecropnohud.png)">
-		<h3 class="game__desc">Re:Dream</h3>
+		<h4 class="game__desc">Re:Dream</h4>
 	</a>
 	<a href="/games/mastered/car-configurator.html" class="game" style="background-image: url(/assets/img/games/car-configurator/screenshot-squarecropnohud.png)">
-		<h3 class="game__desc"><span class="sr-only">Drive 2053: </span>Car Configurator</h3>
+		<h4 class="game__desc"><span class="sr-only">Drive 2053: </span>Car Configurator</h4>
 	</a>
 </div>
 See <a href="/games.html">games</a> for more gamedev projects.
