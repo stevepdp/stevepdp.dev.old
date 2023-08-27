@@ -706,6 +706,25 @@
     .game:hover .game__desc {
         text-decoration: none;
     }
+    .game__desc.game__desc--tools {
+        background: none;
+        font-size: 14px;
+        top: auto;
+        right: auto;
+        left: 0;
+        bottom: 0;
+        padding: 0;
+    }
+    .tool {
+        background: var(--stevepdp-grey);
+        display: inline-block;
+        float: left;
+        margin-right: 2px;
+        padding: 6px;
+    }
+    .tool ~ .tool:after {
+        clear: left;
+    }
 }
 @media only screen and (prefers-color-scheme: dark) {
 
