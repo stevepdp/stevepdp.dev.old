@@ -14,8 +14,6 @@ type: single
 
 Hi. I make games and I'm interested in their design and programming.
 
-Lately, I've been adapting to Godot Engine, buffing my predominantly Unity portfolio, and applying to full-time positions in the games industry, among other things.
-
 Connect with me on <a href="https://linkedin.com/in/stevepdp" rel="me nofollow noopener noreferrer" target="_blank">LinkedIn</a>, play the games on <a href="https://stevepdp.itch.io" rel="me nofollow noopener noreferrer" target="_blank">Itch</a> and explore the source at <a href="https://github.com/stevepdp" rel="me nofollow noopener noreferrer" target="_blank">GitHub</a>.
 
 
