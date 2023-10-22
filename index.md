@@ -3,7 +3,7 @@ title: Home
 canonical_url: https://stevepdp.dev
 
 og_title: "Stephen Pearce's Homepage"
-og_description: "Stephen Pearce's homepage. Featuring games, retrospectives and blogs."
+og_description: "Stephen Pearce's homepage. Featuring games, devlogs and retrospectives."
 og_image: "https://stevepdp.dev/assets/img/games/re-dream/opengraph.png"
 
 layout: single

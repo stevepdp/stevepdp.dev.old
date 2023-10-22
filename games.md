@@ -3,7 +3,7 @@ title: Games
 canonical_url: https://stevepdp.dev/games.html
 
 og_title: "Games by Stephen Pearce"
-og_description: "Stephen Pearce's homepage. Featuring games, retrospectives and blogs."
+og_description: "Stephen Pearce's homepage. Featuring games, devlogs and retrospectives."
 
 layout: category-games
 type: category-games

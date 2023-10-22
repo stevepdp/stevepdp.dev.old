@@ -3,5 +3,5 @@ layout: rss
 tag: all
 
 rss_name: "Stephen Pearce: All"
-rss_desc: "An RSS feed containing all blog posts, games and devlogs."
+rss_desc: "An RSS feed containing games, devlogs and retrospectives."
 ---
